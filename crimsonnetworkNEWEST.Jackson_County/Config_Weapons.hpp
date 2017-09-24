@@ -261,7 +261,7 @@ class WeaponShops {
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mah", "", 100 },
+            { "A3L_Glock17mag", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 }
         };
@@ -318,7 +318,7 @@ class WeaponShops {
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mah", "", 100 },
+            { "A3L_Glock17mag", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
@@ -350,7 +350,7 @@ class WeaponShops {
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mah", "", 100 },
+            { "A3L_Glock17mag", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
@@ -379,7 +379,7 @@ class WeaponShops {
         mags[] = {
             { "RH_30Rnd_556x45_M855A1", "", 100 },
 			{ "prpl_8Rnd_12Gauge_Slug", "", 100 },
-			{ "prpl_8Rnd_12Gauge_Slug", "", 100 }
+			{ "prpl_8Rnd_12Gauge_Pellets", "Beanbags", 100 }
         };
         accs[] = {
             { "RH_compm4s", "", 100 },
