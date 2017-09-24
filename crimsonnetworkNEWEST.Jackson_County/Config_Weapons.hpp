@@ -284,7 +284,7 @@ class WeaponShops {
             { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_pyhton", "", 100, -1 }
+			{ "RH_python", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
@@ -313,7 +313,7 @@ class WeaponShops {
             { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_pyhton", "", 100, -1 },
+			{ "RH_python", "", 100, -1 },
 			{ "RH_bullb", "", 100, -1 }
         };
         mags[] = {
@@ -344,7 +344,7 @@ class WeaponShops {
             { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_pyhton", "", 100, -1 },
+			{ "RH_python", "", 100, -1 },
 			{ "RH_bullb", "", 100, -1 },
 			{ "RH_Deaglem", "", 100, -1 }
         };
