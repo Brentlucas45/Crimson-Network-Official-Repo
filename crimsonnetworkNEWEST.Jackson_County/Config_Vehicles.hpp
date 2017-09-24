@@ -422,39 +422,34 @@ class CarShops {
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "cg_ducati_pol_reg", { "", "", -1 } },
-			{ "ivory_m3_marked", { "", "", -1 } },
-			{ "ivory_m3_unmarked", { "", "", -1 } },
-			{ "ivory_rev_marked", { "", "", -1 } },
-			{ "ivory_rev_unmarked", { "", "", -1 } },
-			{ "cg_evopol1", { "", "", -1 } },
-			{ "A3L_TahoeUCPB", { "", "", -1 } },
 			{ "A3L_CVPIUCBlack", { "", "", -1 } },
 			{ "A3L_CVPIUCWhite", { "", "", -1 } },
-			{ "A3L_CVPIUCGrey", { "", "", -1 } },
 			{ "A3L_CVPIUCRed", { "", "", -1 } },
-			{ "A3L_CVPIUCPink", { "", "", -1 } },
-			{ "A3L_CVPIUCBlue", { "", "", -1 } },
-			{ "A3L_CVPIFPBLBPD", { "", "", -1 } },
 			{ "A3L_CVPIFPBCSO", { "", "", -1 } },
+			{ "A3L_CVPIFPBFG", { "", "", -1 } },
+			{ "A3L_TaurusFPBLBCSO", { "", "", -1 } },
+			{ "cg_taurustrooper", { "", "", -1 } },
+			{ "A3L_TaurusUC", { "", "", -1 } },
+			{ "A3L_TaurusUCWhite", { "", "", -1 } },
+			{ "A3L_TaurusUCGrey", { "", "", -1 } },
 			{ "A3L_Charger_Patrol", { "", "", -1 } },
 			{ "A3L_ChargerUC_Blue_New", { "", "", -1 } },
 			{ "A3L_ChargerSERTLB", { "", "", -1 } },
-			{ "A3L_ChargerPDLB", { "", "", -1 } },
 			{ "A3L_jailbus", { "", "", -1 } },
 			{ "cg_h2_sert", { "", "", -1 } },
-			{ "ivory_evox_marked", { "", "", -1 } },
 			{ "ivory_evox_unmarked", { "", "", -1 } },
-			{ "A3L_TaurusFPBLBCSO", { "", "", -1 } },
-			
+			{ "cg_evopol1", { "", "", -1 } },
+			{ "ivory_m3_unmarked", { "", "", -1 } },
+			{ "A3L_TahoeCSOLBPB", { "", "", -1 } }
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "B_Heli_Transport_01_F", { "life_coplevel", "SCALAR", 3 } }
+            { "PD_sheriff_mh9", { "", "", -1 } },
+            { "C_Heli_light_01_sheriff_F", { "", "", -1 } },
+			{ "Sheriff_Chopper", { "", "", -1 } }
         };
     };
 
@@ -463,7 +458,6 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", { "", "", -1 } },
             { "C_Boat_Civil_01_police_F", { "", "", -1 } },
-            { "B_Boat_Armed_01_minigun_F", { "life_coplevel", "SCALAR", 3 } },
             { "B_SDV_01_F", { "", "", -1 } }
         };
     };
@@ -503,7 +497,133 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
-
+	
+	class A3L_CVPIUCBlack {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class PD_sheriff_mh9 {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class C_Heli_light_01_sheriff_F {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class Sheriff_Chopper {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIUCWhite {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIUCRed {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBFG {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusFPBLBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_taurustrooper {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusUC {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusUCWhite {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusUCGrey {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_Charger_Patrol {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_ChargerUC_Blue_New {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_ChargerSERTLB {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_evopol1 {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TahoeCSOLBPB {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
