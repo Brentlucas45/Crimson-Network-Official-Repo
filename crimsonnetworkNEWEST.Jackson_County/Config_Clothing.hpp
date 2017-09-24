@@ -256,18 +256,11 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "A3L_EC_SERTK", "", 0, { "", "", -1 } },
-            { "A3L_EC_SERTM", "", 0, { "", "", -1 } },
-            { "ALRP_SERT_Sweater", "", 0, { "", "", -1 } },
-            { "CG_SERT3", "", 0, { "", "", -1 } },
             { "A3L_SERT_Patrol", "", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_CrewHelmetHeli_B", "", 0, { "", "", -1 } },
-            { "ALRP_SERT_Cap_Badge", "", 0, { "", "", -1 } },
-            { "ALRP_SERT_Cap", "", 0, { "", "", -1 } },
-            { "TCG_swathelmet", "", 0, { "", "", -1 } }
+            { "TRYK_H_GR", "", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -275,16 +268,11 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "SERT_FULL_VEST", "", 0, { "", "", -1 } },
-            { "SERT_FULL_VESTGRN", "", 0, { "", "", -1 } },
-            { "A3L_EC_SERT_SPOPS_NP", "", 0, { "", "", -1 } },
-            { "SERT_VEST_DIGI", "", 0, { "", "", -1 } },
-            { "SERT_RIDEALONGGRN", "", 0, { "", "", -1 } },
-            { "SERT_RIDEALONGblk", "", 0, { "", "", -1 } }
+            { "SERT_FULL_VESTGRN", "", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-			{ "TRYK_Winter_pack", "Invisible Backpack", 0, { "", "", -1 } }
+			{ "AM_PoliceBelt", "Police Duty Belt", 0, { "", "", -1 } }
         };
     };
 
@@ -294,20 +282,20 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "PRO_SOD", "Cadet", 0, { "", "", -1 } },
-			{ "PRO_SOSD", "Officer", 0, { "", "", -1 } },
+			{ "PRO_SOO", "Cadet", 0, { "", "", -1 } },
+			{ "PRO_SOSO", "Officer", 0, { "", "", -1 } },
 			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
-			{ "A3L_SOSergeant_Uniform", "Sergeant", 0, { "", "", -1 } },
-			{ "A3L_SOLieutenant_Uniform", "Lieutenant", 0, { "", "", -1 } },
-            { "A3L_SOCaptain_Uniform", "Captain", 0, { "", "", -1 } },
-            { "A3L_SOSheriff_Uniform", "Chief Uniform", 0, { "", "", -1 } },
-            { "police_uni1", "Patrol Uniform", 0, { "", "", -1 } },
-			{ "A3L_FTOSeniorDeputy_Uniform", "FTO Uniform", 0, { "", "", -1 } }
+			{ "PRO_SOSGT", "Sergeant", 0, { "", "", -1 } },
+			{ "APRO_SOLT", "Lieutenant", 0, { "", "", -1 } },
+            { "PRO_SOCPT", "Captain", 0, { "", "", -1 } },
+            { "PRO_SOACHIEF", "Under Chief", 0, { "", "", -1 } },
+			{ "PRO_SOCHIEF", "Chief", 0, { "", "", -1 } },
+			{ "fto_uni", "FTO Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "Campaign_Hat_Light", "Sheriffs Hat", 0, { "", "", -1 } },
-            { "jamie_pcapblack", "Patrol Hat", 0, { "", "", -1 } }
+            { "jamie_pcapblack", "FTO Hat", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -318,9 +306,9 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "Pro_SOVest", "Sherrif Vest", 0, { "", "", -1 } },
+            { "A3L_sheriffvest", "Sherrif Vest", 0, { "", "", -1 } },
             { "PRO_SOVEST_Command", "Command Vest", 0, { "", "", -1 } },
-            { "jamie_corrections_vest", "Corrections", 0, { "", "", -1 } }
+            { "A3L_ftovest2", "FTO Vest", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
