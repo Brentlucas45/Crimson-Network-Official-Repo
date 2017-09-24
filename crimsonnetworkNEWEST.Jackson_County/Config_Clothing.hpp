@@ -202,10 +202,6 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Squares", "", 10, { "", "", -1 } },
-            { "G_Shades_Blue", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
             { "G_Shades_Black", "", 25, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
             { "G_Combat", "", 55, { "", "", -1 } },
