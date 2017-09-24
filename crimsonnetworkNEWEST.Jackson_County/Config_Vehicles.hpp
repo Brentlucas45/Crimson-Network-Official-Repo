@@ -395,15 +395,9 @@ class CarShops {
             { "O_Truck_03_medical_F", { "", "", -1 } },
             { "B_Truck_01_medical_F", { "", "", -1 } },
 			{ "A3L_Charger_EMS_Fast", { "", "", -1 } },
-			{ "ivory_suburban_ems", { "", "", -1 } }, 
-			{ "CG_EMS9_F", { "", "", -1 } },
-			{ "CG_EMS1_F", { "", "", -1 } },
-			{ "CG_EMS2_F", { "", "", -1 } },
-			{ "CG_EMS4_F", { "", "", -1 } },
-			{ "CG_EMS5_F", { "", "", -1 } },
-			{ "CG_EMS6_F", { "", "", -1 } },	
+			{ "ivory_suburban_ems", { "", "", -1 } }, 	
 			{ "EvoXEMS", { "", "", -1 } },	
-			{  "ivory_b206_rescue", { "", "", -1 } }
+			{ "ivory_b206_rescue", { "", "", -1 } }
         };
     };
 
