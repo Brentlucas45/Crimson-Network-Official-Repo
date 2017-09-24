@@ -54,7 +54,7 @@ class Clothing {
 			{ "cg_tupac1", "Tupac Clothing", 125, { "", "", -1 } },
 			{ "cg_turtles1", "Turtles Clothing", 125, { "", "", -1 } },
 			{ "cg_upyours1", "UpYours Clothing", 125, { "", "", -1 } },
-			{ "cg_woods1", "Woods Clothing", 125, { "", "", -1 } },
+			{ "cg_woods1", "Woods Clothing", 125, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -85,7 +85,7 @@ class Clothing {
 			{ "H_StarFoxMask", "Starfox Mask", 120, { "", "", -1 } },
 			{ "H_UltronMask", "Ultron Mask", 120, { "", "", -1 } },
 			{ "H_VenomMask", "Venom Mask", 120, { "", "", -1 } },
-			{ "H_WashingtonMask", "Washington Mask", 120, { "", "", -1 } },
+			{ "H_WashingtonMask", "Washington Mask", 120, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -184,21 +184,20 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "A3L_EC_SOCDT", "Cadet", 0, { "", "", -1 } },
-			{ "A3L_EC_SOOFC", "Officer", 0, { "", "", -1 } },
-			{ "A3L_EC_SOCPL", "Corporal", 0, { "", "", -1 } },
-			{ "A3L_EC_SOSGT", "Sergeant", 0, { "", "", -1 } },
-			{ "A3L_EC_SOLT", "Lieutenant", 0, { "", "", -1 } },
-            { "A3L_Sheriff_Uniform", "Sheriff Uniform", 0, { "", "", -1 } },
+			{ "PRO_SOD", "Cadet", 0, { "", "", -1 } },
+			{ "PRO_SOSD", "Officer", 0, { "", "", -1 } },
+			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
+			{ "A3L_SOSergeant_Uniform", "Sergeant", 0, { "", "", -1 } },
+			{ "A3L_SOLieutenant_Uniform", "Lieutenant", 0, { "", "", -1 } },
+            { "A3L_SOCaptain_Uniform", "Captain", 0, { "", "", -1 } },
             { "A3L_SOSheriff_Uniform", "Chief Uniform", 0, { "", "", -1 } },
             { "police_uni1", "Patrol Uniform", 0, { "", "", -1 } },
 			{ "A3L_FTOSeniorDeputy_Uniform", "FTO Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "AM_PatrolHat", "Sheriffs Hat", 0, { "", "", -1 } },
-            { "jamie_pcapblack", "Patrol Hat", 0, { "", "", -1 } },
-            { "H_Cap_police", "", 0, { "", "", -1 } }
+            { "Campaign_Hat_Light", "Sheriffs Hat", 0, { "", "", -1 } },
+            { "jamie_pcapblack", "Patrol Hat", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -209,13 +208,13 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "A3L_EC_PATROL_VEST", "Sherrif Vest", 0, { "", "", -1 } },
-            { "A3L_negotiatorvest", "Negotiator Vest", 0, { "", "", -1 } },
-            { "jamie_black", "Patrol Vest", 0, { "", "", -1 } }
+            { "Pro_SOVest", "Sherrif Vest", 0, { "", "", -1 } },
+            { "PRO_SOVEST_Command", "Command Vest", 0, { "", "", -1 } },
+            { "jamie_corrections_vest", "Corrections", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-			{ "TRYK_Winter_pack", "Invisible Backpack", 0, { "", "", -1 } }
+			{ "AM_PoliceBelt", "Duty Belt", 0, { "", "", -1 } }
         };
     };
 

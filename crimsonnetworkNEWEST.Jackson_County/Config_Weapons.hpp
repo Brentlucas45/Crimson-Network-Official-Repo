@@ -175,12 +175,6 @@ class WeaponShops {
             { "ItemGPS", "", 100, 45 },
             { "FirstAidKit", "", 100, 65 },
             { "NVGoggles", "", 100, 980 },
-			{ "muzzle_snds_L", "", 100 },
-			{ "optic_Arco", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
 			{ "optic_Holosight", "", 100 },
 			{ "tf_anprc152_1", "", 100 }
         };
@@ -205,13 +199,7 @@ class WeaponShops {
             { "A3L_Glock17mag", "", 100 },
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+			{ "RH_M6X", "", 100 }
         };
     }
 	
@@ -221,24 +209,20 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be an Officer Rank!" };
         items[] = {
-            { "A3L_Glock17", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
+			{ "A3L_Glock17", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, 5000 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
-            { "RH_30Rnd_556x45_M855A1", "", 100 }
+            { "A3L_Glock17mag", "", 100 }
+			{ "11Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+            { "RH_M6X", "", 100 },
+			{ "optic_MRD", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 }
         };
     };
 
@@ -248,24 +232,22 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
-            { "RH_M27IAR", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, -1 },
+            { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
+			{ "hgun_ACPC2_F", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_60Rnd_556x45_M855A1", "", 100 },
-            { "RH_30Rnd_556x45_M855A1", "", 100 }
+            { "A3L_Glock17mah", "", 100 },
+            { "11Rnd_45ACP_Mag", "", 100 }
+			{ "9Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 } 
+			{ "RH_M6X", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 },
+			{ "optic_MRD", "", 100 } 
         };
     };
 	
@@ -275,26 +257,26 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "You must be an Lieutenant Rank!" };
         items[] = {
-            { "RH_M27IAR", "", 100, -1 },
+			{ "RH_kimber_nw", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, 5000 },
+            { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
-			{ "RH_M16A4", "", 100, 5000 },
-			
+			{ "hgun_ACPC2_F", "", 100, -1 },
+			{ "RH_pyhton", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_60Rnd_556x45_M855A1", "", 100 },
-            { "RH_30Rnd_556x45_M855A1", "", 100 }
+            { "A3L_Glock17mah", "", 100 },
+            { "11Rnd_45ACP_Mag", "", 100 },
+			{ "9Rnd_45ACP_Mag", "", 100 },
+			{ "RH_7Rnd_45cal_m1911", "", 100 },
+			{ "RH_6Rnd_357_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+            { "RH_M6X", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 },
+			{ "optic_MRD", "", 100 } 
         };
     };
 	
@@ -304,29 +286,28 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain Rank!" };
         items[] = {
-            { "RH_M27IAR", "", 100, -1 },
+            { "RH_kimber_nw", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, 5000 },
+            { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
-			{ "RH_M16A4", "", 100, 5000 },
-			{ "RH_SAMR", "", 100, 5000 },
-			{ "RH_SR25EC", "", 100, 5000 }
+			{ "hgun_ACPC2_F", "", 100, -1 },
+			{ "RH_pyhton", "", 100, -1 },
+			{ "RH_bullb", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_60Rnd_556x45_M855A1", "", 100 },
-            { "RH_30Rnd_556x45_M855A1", "", 100 },
-			{ "RH_20Rnd_762x51_M80A1", "", 100 },
-			{ "RH_30Rnd_556x45_Mk262", "", 100 }
+            { "A3L_Glock17mah", "", 100 },
+            { "11Rnd_45ACP_Mag", "", 100 },
+			{ "9Rnd_45ACP_Mag", "", 100 },
+			{ "RH_7Rnd_45cal_m1911", "", 100 },
+			{ "RH_6Rnd_357_Mag", "", 100 },
+			{ "RH_6Rnd_454_Mag", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+            { "RH_M6X", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 },
+			{ "optic_MRD", "", 100 } 
         };
     };
 	
@@ -336,69 +317,52 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a Chief Rank!" };
         items[] = {
-            { "RH_M27IAR", "", 100, -1 },
+            { "RH_kimber_nw", "", 100, -1 },
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, -1 },
+            { "A3L_Glock17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
-			{ "RH_M16A4", "", 100, -1 },
-			{ "RH_SAMR", "", 100, -1 },
-			{ "RH_SR25EC", "", 100, -1 },
-			{ "hlc_rifle_awmagnum_BL", "", 100, -1 },
-            { "RH_uspm", "", 100, -1 },
-            { "RH_matchsd", "", 100, -1 }
+			{ "hgun_ACPC2_F", "", 100, -1 },
+			{ "RH_pyhton", "", 100, -1 },
+			{ "RH_bullb", "", 100, -1 },
+			{ "RH_Deaglem", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_60Rnd_556x45_M855A1", "", 100 },
-            { "RH_30Rnd_556x45_M855A1", "", 100 },
-			{ "RH_20Rnd_762x51_M80A1", "", 100 },
-			{ "RH_30Rnd_556x45_Mk262", "", 100 },
-			{ "HLC_300WM_FMJ", "", 100 },
-            { "RH_16Rnd_40cal_usp", "", 100 }
+            { "A3L_Glock17mah", "", 100 },
+            { "11Rnd_45ACP_Mag", "", 100 },
+			{ "9Rnd_45ACP_Mag", "", 100 },
+			{ "RH_7Rnd_45cal_m1911", "", 100 },
+			{ "RH_6Rnd_357_Mag", "", 100 },
+			{ "RH_6Rnd_454_Mag", "", 100 },
+			{ "RH_7Rnd_50_AE", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+            { "RH_M6X", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 },
+			{ "optic_MRD", "", 100 },
+			{ "optic_Yorris", "", 100 },
+			{ "RH_demz", "", 100 }
         };
     };
 	
-	class cop_fbi {
-        name = "FBI Weapons Shop";
+	class cop_redweapons {
+        name = "Code Red Weapons";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "You must be an FBI Rank!" };
+        level[] = { "", "", -1, "" };
         items[] = {
-            { "RH_M27IAR", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "RH_M4_ris", "", 100, 5000 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 },
-			{ "RH_M16A4", "", 100, 5000 },
-			{ "RH_SAMR", "", 100, 5000 },
-			{ "RH_SR25EC", "", 100, 5000 },
-			{ "RH_Mk11", "", 100, 5000 },
-			{ "hlc_rifle_awmagnum_BL", "", 100, 5000 }
+            { "RH_M4_moe_b", "", 100, -1 },
+			{ "prpl_benelli", "", 100, 5000 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_60Rnd_556x45_M855A1", "", 100 },
             { "RH_30Rnd_556x45_M855A1", "", 100 },
-			{ "RH_20Rnd_762x51_M80A1", "", 100 },
-			{ "RH_30Rnd_556x45_Mk262", "", 100 },
-			{ "hlc_5rnd_300WM_FMJ_AWM", "", 100 }
+			{ "prpl_8Rnd_12Gauge_Slug", "", 100 },
+			{ "prpl_8Rnd_12Gauge_Slug", "", 100 }
         };
         accs[] = {
-            { "optic_Arco", "", 100 },
-            { "muzzle_snds_H", "", 100 },
-			{ "optic_Hamr", "", 100 },
-			{ "optic_DMS", "", 100 },
-			{ "optic_AMS", "", 100 },
-			{ "bipod_01_F_blk", "", 100 },
-			{ "optic_Holosight", "", 100 }
+            { "RH_compm4s", "", 100 },
+			{ "RH_SFM952V", "", 100 },
         };
     };
 	
@@ -413,6 +377,7 @@ class WeaponShops {
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 1200, 980 }
+			{ "Medikit", "", 1200, 980 }
         };
         mags[] = {};
         accs[] = {};
