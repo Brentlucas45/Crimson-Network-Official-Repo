@@ -36,7 +36,7 @@ if (!isNull _source) then {
         };
 
 		//Rubberbullets
-		if (currentMagazine _source in ["CSW_Taser_Probe_Mag"] && _projectile in ["CSW_Taser_Ammo"]) then { //attention I changed it to mag and projectile!!
+		if (currentMagazine _source in ["CSW_Taser_Probe_Mag", "prpl_8Rnd_12Gauge_Pellets"] && _projectile in ["CSW_Taser_Ammo", "prpl_B_12Gauge_Pellets]) then { //attention I changed it to mag and projectile!!
             if (side _source isEqualTo west && playerSide isEqualTo civilian) then {
                 _damage = 0;
                 if (alive player && !life_istazed && !life_isknocked && !(_unit getVariable ["restrained",false])) then {
