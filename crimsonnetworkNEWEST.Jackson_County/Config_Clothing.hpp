@@ -286,7 +286,7 @@ class Clothing {
 			{ "PRO_SOSO", "Officer", 0, { "", "", -1 } },
 			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
 			{ "PRO_SOSGT", "Sergeant", 0, { "", "", -1 } },
-			{ "APRO_SOLT", "Lieutenant", 0, { "", "", -1 } },
+			{ "PRO_SOLT", "Lieutenant", 0, { "", "", -1 } },
             { "PRO_SOCPT", "Captain", 0, { "", "", -1 } },
             { "PRO_SOACHIEF", "Under Chief", 0, { "", "", -1 } },
 			{ "PRO_SOCHIEF", "Chief", 0, { "", "", -1 } },
