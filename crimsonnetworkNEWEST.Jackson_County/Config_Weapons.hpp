@@ -199,7 +199,7 @@ class WeaponShops {
         accs[] = {
 			{ "RH_M6X", "", 100 }
         };
-    }
+    };
 	
 	class cop_officer {
         name = "Officer Weapons Shop";
