@@ -54,8 +54,6 @@ class Clothing {
 			{ "cg_tupac1", "Tupac Clothing", 125, { "", "", -1 } },
 			{ "cg_turtles1", "Turtles Clothing", 125, { "", "", -1 } },
 			{ "cg_upyours1", "UpYours Clothing", 125, { "", "", -1 } },
-			{ "cg_woods1", "Woods Clothing", 125, { "", "", -1 } },
-			{ "cg_woods1", "Woods Clothing", 125, { "", "", -1 } },
 			{ "A3L_Priest_Uniform", "", 125, { "", "", -1 } },
 			{ "U_C_Poor_2", "", 125, { "", "", -1 } },
 			{ "U_IG_Guerilla2_2", "", 125, { "", "", -1 } },
@@ -117,7 +115,7 @@ class Clothing {
 			{ "H_StarFoxMask", "Starfox Mask", 120, { "", "", -1 } },
 			{ "H_UltronMask", "Ultron Mask", 120, { "", "", -1 } },
 			{ "H_VenomMask", "Venom Mask", 120, { "", "", -1 } },
-			{ "H_WashingtonMask", "Washington Mask", 120, { "", "", -1 } }
+			{ "H_WashingtonMask", "Washington Mask", 120, { "", "", -1 } },
 			{ "Kio_Afro_Hat", "", 120, { "", "", -1 } },
 			{ "Kio_Capital_Hat", "", 120, { "", "", -1 } },
 			{ "Kio_Spinning_Hat", "", 120, { "", "", -1 } },
