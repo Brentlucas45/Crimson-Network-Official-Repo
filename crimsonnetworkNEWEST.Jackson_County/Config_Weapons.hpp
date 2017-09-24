@@ -167,7 +167,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "Taser_26", "", 100, 7500 },
+            { "CSW_M26C", "", 100, 7500 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 },
             { "Binocular", "", 100, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -177,7 +177,7 @@ class WeaponShops {
 			{ "tf_anprc152_1", "", 100 }
         };
         mags[] = {
-            { "26_cartridge", "", 25 },
+            { "CSW_Taser_Probe_Mag", "", 25 },
         };
         accs[] = {
             { "muzzle_snds_L", "", 650 }
