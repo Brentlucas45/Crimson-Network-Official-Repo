@@ -214,7 +214,30 @@ class WeaponShops {
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 }
+            { "A3L_Glock17mag", "", 100 },
+			{ "11Rnd_45ACP_Mag", "", 100 }
+        };
+        accs[] = {
+            { "RH_M6X", "", 100 },
+			{ "optic_MRD", "", 100 },
+			{ "acc_flashlight_pistol", "", 100 }
+        };
+    };
+	
+	class cop_corporal {
+        name = "Corporal Weapons Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be an Officer Rank!" };
+        items[] = {
+            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
+			{ "A3L_Glock17", "", 100, -1 },
+            { "RH_m9", "", 100, -1 },
+            { "HandGrenade_Stone", "Flashbang", 100, -1 }
+        };
+        mags[] = {
+            { "RH_15Rnd_9x19_M9", "", 100 },
+            { "A3L_Glock17mag", "", 100 },
 			{ "11Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
@@ -228,18 +251,18 @@ class WeaponShops {
         name = "Sergeant Weapons Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Sergeant Rank!" };
         items[] = {
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
             { "A3L_Glock17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 }
+            { "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
             { "A3L_Glock17mah", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 }
+            { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
@@ -253,7 +276,7 @@ class WeaponShops {
         name = "Lieutenant Weapons Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "You must be an Lieutenant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "You must be an Lieutenant Rank!" };
         items[] = {
 			{ "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
@@ -282,7 +305,7 @@ class WeaponShops {
         name = "Captain Weapons Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "You must be a Captain Rank!" };
         items[] = {
             { "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
@@ -313,7 +336,7 @@ class WeaponShops {
         name = "Chief Weapons Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "You must be a Chief Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "You must be a Chief Rank!" };
         items[] = {
             { "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
@@ -360,7 +383,7 @@ class WeaponShops {
         };
         accs[] = {
             { "RH_compm4s", "", 100 },
-			{ "RH_SFM952V", "", 100 },
+			{ "RH_SFM952V", "", 100 }
         };
     };
 	
@@ -374,7 +397,7 @@ class WeaponShops {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 1200, 980 }
+            { "NVGoggles", "", 1200, 980 },
 			{ "Medikit", "", 1200, 980 }
         };
         mags[] = {};
