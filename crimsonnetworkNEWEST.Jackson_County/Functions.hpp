@@ -388,4 +388,11 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+	
+	class Dialog_Controls {
+		file = "dialog\function";
+		[...]
+		class insureCar {};
+		[...]
+	};
 };
