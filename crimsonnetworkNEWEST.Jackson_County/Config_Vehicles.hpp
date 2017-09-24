@@ -610,13 +610,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	
-	class cg_evopol1 {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
 	class A3L_TahoeCSOLBPB {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -840,28 +833,7 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	
-	class A3L_CVPIUCBlack {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_CVPIUCWhite {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
 	class A3L_CVPIUCGrey {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_CVPIUCRed {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;
@@ -883,34 +855,6 @@ class LifeCfgVehicles {
     };
 	
 	class A3L_CVPIFPBLBPD {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_CVPIFPBCSO {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_Charger_Patrol {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_ChargerUC_Blue_New {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_ChargerSERTLB {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;
@@ -946,13 +890,6 @@ class LifeCfgVehicles {
     };
 	
 	class ivory_evox_unmarked {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_TaurusFPBLBCSO {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;
@@ -1081,13 +1018,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 		
-	class cg_lambo_veneno_grise {
-        vItemSpace = 25;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 300000;
-        textures[] = { };
-    };
-	
 	class cg_lambo_veneno_noir {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1936,13 +1866,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 	class A3L_F350White {
-        vItemSpace = 100;
-        licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 65000;
-        textures[] = { };
-    };
-	
-	class A3L_F350Blue {
         vItemSpace = 100;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 65000;
