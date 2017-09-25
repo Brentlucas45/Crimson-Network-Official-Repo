@@ -34,7 +34,16 @@ switch (playerSide) do {
         _packet pushBack life_is_arrested;
         _packet pushBack _alive;
         _packet pushBack _position;
+		_packet pushBack life_has_debit;
     };
+	
+	case west: {
+		_packet pushBack life_has_debit;
+	};
+	
+	case independent: {
+		_packet pushBack life_has_debit;
+	};
 };
 
 if (life_HC_isActive) then {

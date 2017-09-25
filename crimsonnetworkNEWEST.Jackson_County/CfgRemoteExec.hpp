@@ -115,6 +115,7 @@ class CfgRemoteExec {
 		F(TON_fnc_handleMessages,SERVER)
 		F(TON_fnc_msgRequest,SERVER)
 		F(TON_fnc_insureCar,SERVER) 
+		F(TON_fnc_debitBought,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)

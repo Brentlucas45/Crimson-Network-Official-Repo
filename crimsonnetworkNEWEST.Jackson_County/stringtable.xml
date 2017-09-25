@@ -11106,4 +11106,51 @@
 		<Original>CALLS EMERGENCY | Abuse leads to BAN!</Original>
 	 </Key>
 	</Package>
+	<Package name="Debit_Cards">
+	 <Key ID="STR_Debit_PurchaseDebit">
+		<Original>Purchase Debit Card</Original>
+     </Key>
+     <Key ID="STR_Debit_NotEnoughCash">
+		<Original>Sorry, but you do not have enough money to purchase a Debit Card. Amont lacking: $%1.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_AlreadyOwned">
+		<Original>You already own a Debit Card.</Original>
+     </Key>
+     <Key ID="STR_Debit_Purchased">
+		<Original>You have purchased a Debit Card for $%1.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Weapon_Sold">
+		<Original>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2.&lt;/t&gt; The money was added to your bank account since you own a debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_BoughtItemTax">
+		<Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2.&lt;/t&gt; You also paid &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; in tax for using your debit card.</Original>
+     </Key>
+	 <Key ID="STR_Debit_BoughtItem">
+		<Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2.&lt;/t&gt; The money was taken from your bank account since you own a debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_UsedOnHandCash">
+		<Original>You purchased a %1 with your on-hand cash since it was on your person. Total amount paid: &lt;t color='#8cff9b'&gt;$%2.&lt;/t&gt;</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Clothing_BoughtItemTax">
+		<Original>You purchased clothing for &lt;t color='#8cff9b'&gt;$%1.&lt;/t&gt; You also paid &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; in tax for using your debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Clothing_BoughtItem">
+		<Original>You purchased clothing for &lt;t color='#8cff9b'&gt;$%1.&lt;/t&gt; The money was taken from your bank account since you own a debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Clothing_UsedOnHandCash">
+		<Original>You purchased clothing with your on-hand cash since it was on your person. Total amount paid: &lt;t color='#8cff9b'&gt;$%1.&lt;/t&gt;</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Virt_SellItem">
+		<Original>You sold %1 %2(s) for &lt;t color='#8cff9b'&gt;$%3.&lt;/t&gt; The money was added to your bank account since you own a debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Virt_BoughtItemTax">
+		<Original>You bought %1 %2(s) for &lt;t color='#8cff9b'&gt;$%3.&lt;/t&gt; You also paid &lt;t color='#8cff9b'&gt;$%4&lt;/t&gt; in tax for using your debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Virt_BoughtItem">
+		<Original>You purchased %1 %2(s) for &lt;t color='#8cff9b'&gt;$%3.&lt;/t&gt; The money was taken from your bank account since you own a debit card.</Original>
+	 </Key>
+	 <Key ID="STR_Debit_Virt_UsedOnHandCash">
+		<Original>You purchased %1 %2(s) with your on-hand cash since it was on your person. Total amount paid: &lt;t color='#8cff9b'&gt;$%3.&lt;/t&gt;</Original>
+	 </Key>
+	</Package>
 </Project>

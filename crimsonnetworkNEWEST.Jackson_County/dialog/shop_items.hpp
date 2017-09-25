@@ -104,26 +104,26 @@ class shops_menu {
         };
 
         class ButtonAddG: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_VS_BuyItem";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] spawn life_fnc_virt_buy;";
-            x = 0.12 + (0.35 / 2) - ((6.25 / 40) / 2);
-            y = 0.70;
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
+			idc = -1;
+			text = "$STR_VS_BuyItem";
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			onButtonClick = "[2] call life_fnc_debitCheck";
+			x = 0.12 + (0.35 / 2) - ((6.25 / 40) / 2);
+			y = 0.70;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 
-        class ButtonRemoveG: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_VS_SellItem";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            onButtonClick = "[] call life_fnc_virt_sell";
-            x = 0.53 + (0.35 / 2) - ((6.25 / 40) / 2);
-            y = 0.70;
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
+		class ButtonRemoveG: Life_RscButtonMenu {
+			idc = -1;
+			text = "$STR_VS_SellItem";
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+		onButtonClick = "[4] call life_fnc_debitCheck";
+			x = 0.53 + (0.35 / 2) - ((6.25 / 40) / 2);
+			y = 0.70;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 
         class ButtonClose: Life_RscButtonMenu {
             idc = -1;

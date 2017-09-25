@@ -47,6 +47,7 @@ life_pos_exist = false;
 life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
+life_seatbelt = false;
 
 //Settings
 life_settings_enableSidechannel = profileNamespace getVariable["life_enableSidechannel",true];
@@ -80,6 +81,7 @@ life_thirst = 100;
 life_hunger = 100;
 life_smartphoneTarget = ObjNull;
 CASH = 0;
+life_has_debit = false;
 
 life_istazed = false;
 life_isknocked = false;

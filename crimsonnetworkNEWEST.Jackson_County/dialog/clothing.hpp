@@ -88,14 +88,14 @@ class Life_Clothing {
         };
 
         class BuyButtonKey: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_Global_Buy";
-            onButtonClick = "[] call life_fnc_buyClothes;";
-            x = 0.0822359 * safezoneW + safezoneX;
-            y = 0.489992 * safezoneH + safezoneY;
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
+			idc = -1;
+			text = "$STR_Global_Buy";
+			onButtonClick = "[0] call life_fnc_debitCheck;";
+			x = 0.0822359 * safezoneW + safezoneX;
+			y = 0.489992 * safezoneH + safezoneY;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 
         class viewAngle: life_RscXSliderH {
             color[] = {1, 1, 1, 0.45};

@@ -276,6 +276,25 @@ switch (_code) do {
             };
         };
     };
+	
+	case 46:  
+    {      
+        if(_shift && (!life_action_inUse) && (vehicle player == player) ) then  
+        {  
+			_item = "";  
+            {  
+                if(typeName _x == typeName "") then {_item = _x;} else {_item = configName _x};  
+				_val = ITEM_VALUE(_item);  
+                if(_val > 0 ) then  
+                {  
+                    if( _item == "pickaxe" ) then  
+                    {  
+                        [] spawn life_fnc_pickAxeUse;  
+                    };  
+                };  
+            } foreach ("true" configClasses (missionConfigFile >> "VirtualItems"));  
+        }  
+    };  
 
     //U Key
     case 22: {

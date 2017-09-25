@@ -64,14 +64,14 @@ class life_weapon_shop {
         };
 
         class ButtonBuySell: Life_RscButtonMenu {
-            idc = 38405;
-            text = "$STR_Global_Buy";
-            onButtonClick = "[] spawn life_fnc_weaponShopBuySell; true";
-            x = 0.1;
-            y = 0.8 - (1 / 25);
-            w = (6.25 / 40);
-            h = (1 / 25);
-        };
+			idc = 38405;
+			text = "$STR_Global_Buy";
+			onButtonClick = "[1] call life_fnc_debitCheck;";
+			x = 0.1;
+			y = 0.8 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 
         class ButtonClose: Life_RscButtonMenu {
             idc = -1;

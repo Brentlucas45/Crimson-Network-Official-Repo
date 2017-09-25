@@ -15,6 +15,15 @@ class Life_Settings {
     player_moneyLog = false; //False [default] - No money logging. True - Logs player bank deposits, withdraws, and transfers, gang bank deposits and withdraws, money picked up off of the ground, and player robbery. Search for: money_log
     player_deathLog = false; //False [default] - No death logging. True - Logs victim and killer, and vehicle or weapon if used, when a player dies. Search for: death_log
 
+/* Debit Card Configuration */
+	debit_tax = true;	//Tax a player when they have used a Debit card to purchase something? - This is mainly a money sink in case everyone on your server owns a debit card, as they'll never have money on their person (so they can't be robbed) if they do.
+	debit_taxAmount = 0.15; // Tax the player pays when purchasing with a debit card. Tax = Price * debit_taxAmount. debit_tax must be true. Eg. - If an item is $45,000 and your tax is set to 0.15, amount paid after tax will be $51,750. (total tax paid $6750.)
+	debit_price = 75000; // Price of purchasing a debit card from the bank.
+	debit_weapons = true; // Allows the use of debit cards when purchasing/selling weapons.
+	debit_clothing = true; // Allows the use of debit cards when purchasing/selling clothing.
+	debit_vItems = true; // Allows the use of Debit Cards when purchasing/selling virtual items.
+	debit_vehicles = true; // Allows the use of Debit Cards when purchasing/renting/selling vehicles.	
+	
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
@@ -195,6 +204,8 @@ class Life_Settings {
         {"STR_Crime_24","10000","24"},
         {"STR_Crime_25","20000","25"}
     };
+	
+	
 };
 
 #include "Config_Clothing.hpp"

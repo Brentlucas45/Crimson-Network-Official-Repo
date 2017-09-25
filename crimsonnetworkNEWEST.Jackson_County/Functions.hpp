@@ -24,7 +24,19 @@ class Life_Client_Core {
         class setupEVH {};
         class survival {};
         class welcomeNotification {};
+		
     };
+	
+	class Debit {
+		file = "core\debit";
+		class buyClothesDebit {};
+		class vehicleShopBuyDebit {};
+		class virt_buyDebit {};
+		class virt_sellDebit {};
+		class weaponShopBuySellDebit {};
+		class debitCheck {};
+		class buyDebit {};
+	};
 
     class Actions {
         file = "core\actions";
@@ -99,6 +111,8 @@ class Life_Client_Core {
         class robReceive {};
         class tazed {};
 		class tazedRubber {};
+		class passeportCiv {};  
+		class civPasseport {}; 
     };
 
     class Config {
@@ -219,6 +233,7 @@ class Life_Client_Core {
 		class loggedOut {};
 		class A3L_bankrobbery {};
 		class A3L_PlantCharge {};
+		class seatbelt {};
 
     };
 	
@@ -388,5 +403,7 @@ class Life_Client_Core {
         class vehStoreItem {};
         class vehTakeItem {};
         class vInteractionMenu {};
+		class vehTakeAllItem {};
+		class vehStoreAllItem {};
     };
 };

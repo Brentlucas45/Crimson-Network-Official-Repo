@@ -64,25 +64,25 @@ class Life_Vehicle_Shop_v2_3D {
             h = 0.0219957 * safezoneH;
         };
 
-        class RentCar: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_Global_RentVeh";
-            onButtonClick = "[false] spawn life_fnc_vehicleShopBuy;";
-            x = 0.0964687 * safezoneW + safezoneX;
-            y = 0.636393 * safezoneH + safezoneY;
-            w = 0.0721724 * safezoneW;
-            h = 0.0219957 * safezoneH;
-        };
+        class RentCar : Life_RscButtonMenu {
+			idc = -1;
+			text = "$STR_Global_RentVeh";
+			onButtonClick = "[5] call life_fnc_debitCheck;";
+			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.9 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 
-        class BuyCar: Life_RscButtonMenu {
-            idc = 2309;
-            text = "$STR_Global_Buy";
-            onButtonClick = "[true] spawn life_fnc_vehicleShopBuy;";
-            x = 0.0204687 * safezoneW + safezoneX;
-            y = 0.636393 * safezoneH + safezoneY;
-            w = 0.0721724 * safezoneW;
-            h = 0.0219957 * safezoneH;
-        };
+		class BuyCar : life_RscButtonMenu {
+			idc = 2309;
+			text = "$STR_Global_Buy";
+			onButtonClick = "[3] call life_fnc_debitCheck;";
+			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.9 - (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
     };
 
     class controls {

@@ -61,10 +61,14 @@ if (!isNull _source) then {
             };
         };
 		
-		if(vehicle _source isKindOf "LandVehicle") then {
+		if(vehicle _source isKindOf "Vehicle") then {
 			if(_source != _unit AND {alive _unit} AND {isPlayer _source}) then {
 				_damage = 0.001;
 			};
+		};
+		
+		if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit)) then{
+			_damage = if (life_seatbelt) then { _damage / 2 } else { _damage};
 		};
     };  
 };
