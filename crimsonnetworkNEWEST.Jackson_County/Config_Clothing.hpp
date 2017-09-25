@@ -411,7 +411,7 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "CG_EMS2", "EMT Trainee", 50, { "", "", -1 } }
+            { "CG_EMS2", "EMT Trainee", 50, { "", "", -1 } },
 			{ "CG_EMS3", "EMT", 50, { "", "", -1 } },
 			{ "CG_EMS1", "Senior EMT", 50, { "", "", -1 } },
 			{ "fn_ems8", "Search And Rescue", 50, { "", "", -1 } },
@@ -423,15 +423,15 @@ class Clothing {
             { "H_Cap_blu", "", 10, { "", "", -1 } },
 			{ "H_Cap_grn", "", 10, { "", "", -1 } },
 			{ "H_PilotHelmetHeli_B", "", 10, { "", "", -1 } },
-			{ "TRYK_R_CAP_BLK", "", 10, { "", "", -1 } },
+			{ "TRYK_R_CAP_BLK", "", 10, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 10, { "", "", -1 } }
+            { "G_Shades_Blue", "", 10, { "", "", -1 } },
 			{ "G_Diving", "", 10, { "", "", -1 } }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "V_RebreatherB", "", 10, { "", "", -1 } }
         };
         backpacks[] = {
