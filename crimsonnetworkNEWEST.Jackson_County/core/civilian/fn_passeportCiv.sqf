@@ -5,7 +5,5 @@ Edit : Heimdall @AltisAurore.fr
 */  
 
 private["_msg"];  
-
 _msg = _this select 1;  
-
-hintSilent parseText _msg; 
+hintSilent parseText _msg;
