@@ -9212,6 +9212,28 @@
             <Portuguese>Base Rebelde</Portuguese>
             <Polish>Baza rebeliantów</Polish>
         </Key>
+		<Key ID="STR_MAR_Drive_Thru_Food">
+            <Original>Drive Thru Food</Original>
+            <Czech>Drive Thru Food</Czech>
+            <French>Drive Thru Food</French>
+            <Spanish>Drive Thru Food</Spanish>
+            <Italian>Drive Thru Food</Italian>
+            <Russian>Drive Thru Food</Russian>
+            <German>Drive Thru Food</German>
+            <Portuguese>Drive Thru Food</Portuguese>
+            <Polish>Drive Thru Food</Polish>
+        </Key>
+		<Key ID="STR_MAR_Fast_Food">
+            <Original>Fast Food</Original>
+            <Czech>Drive Thru Food</Czech>
+            <French>Drive Thru Food</French>
+            <Spanish>Drive Thru Food</Spanish>
+            <Italian>Drive Thru Food</Italian>
+            <Russian>Drive Thru Food</Russian>
+            <German>Drive Thru Food</German>
+            <Portuguese>Drive Thru Food</Portuguese>
+            <Polish>Drive Thru Food</Polish>
+        </Key>
 		<Key ID="STR_MAR_Uncontrolled_Waters">
             <Original>Unmonitored Waters Danger! KOS!</Original>
             <Czech>Unmonitored Waters Danger! KOS!</Czech>

@@ -15,6 +15,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw", "zipties", "blindfold" };
     };
+	
+	class fast_food {
+        name = "STR_Fast_Food";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "coffee", "donuts", "waterBottle", "rabbit", "apple", "redgull", "tbacon" };
+    };
 
     class med_market {
         name = "STR_Shops_Market";
