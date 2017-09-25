@@ -339,9 +339,8 @@ class playerSettings {
 		 h = 0.056 * safezoneH;
 		 };
 		 
-		 class Markt_Knopf: life_RscButtonMenu
-		 {
-		 idc = -1;
+		 class ButtonMarket: Life_RscButtonMenu {
+		 idc = 3025;
 		 x = 0.544623 * safezoneW + safezoneX;
 		 y = 0.7016 * safezoneH + safezoneY;
 		 w = 0.028875 * safezoneW;
