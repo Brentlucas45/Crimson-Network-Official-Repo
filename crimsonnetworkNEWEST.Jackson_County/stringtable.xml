@@ -9191,8 +9191,8 @@
             <Italian>Guardia Costiera</Italian>
         </Key>
         <Key ID="STR_MAR_Rebel_Outpost">
-            <Original>Rebel Outpost</Original>
-            <Czech>Rebel Outpost</Czech>
+            <Original>Rebel Vehicle Dealer</Original>
+            <Czech>Rebel Vehicle Dealer</Czech>
             <French>Avant-Poste Rebel</French>
             <Spanish>Base Rebelde</Spanish>
             <Italian>Avamposto Ribelle</Italian>
@@ -9200,6 +9200,28 @@
             <German>Rebellen Außenposten</German>
             <Portuguese>Base Rebelde</Portuguese>
             <Polish>Baza rebeliantów</Polish>
+        </Key>
+		<Key ID="STR_MAR_Rebel_Weapon_Outpost">
+            <Original>Terror Hideout</Original>
+            <Czech>Terror Weapon Dealer</Czech>
+            <French>Avant-Poste Rebel</French>
+            <Spanish>Base Rebelde</Spanish>
+            <Italian>Avamposto Ribelle</Italian>
+            <Russian></Russian>
+            <German>Rebellen Außenposten</German>
+            <Portuguese>Base Rebelde</Portuguese>
+            <Polish>Baza rebeliantów</Polish>
+        </Key>
+		<Key ID="STR_MAR_Uncontrolled_Waters">
+            <Original>Unmonitored Waters Danger! KOS!</Original>
+            <Czech>Unmonitored Waters Danger! KOS!</Czech>
+            <French>Unmonitored Waters Danger! KOS!</French>
+            <Spanish>Unmonitored Waters Danger! KOS!</Spanish>
+            <Italian>Unmonitored Waters Danger! KOS!</Italian>
+            <Russian>Unmonitored Waters Danger! KOS!</Russian>
+            <German>Unmonitored Waters Danger! KOS!</German>
+            <Portuguese>Unmonitored Waters Danger! KOS!</Portuguese>
+            <Polish>Unmonitored Waters Danger! KOS!</Polish>
         </Key>
         <Key ID="STR_MAR_Air_Shop">
             <Original>Air Shop</Original>
@@ -9840,7 +9862,7 @@
             <Italian>Riserva di Caccia</Italian>
         </Key>
         <Key ID="STR_MAR_Rebel_Clothing_Shop">
-            <Original>Rebel Clothing Shop</Original>
+            <Original>Terror Clothing Shop</Original>
             <Czech>Rebel Oblečení Shop</Czech>
             <French>Friperie Rebel</French>
             <Spanish>Tienda de Ropa Rebelde</Spanish>
@@ -9851,7 +9873,7 @@
             <Polish>Magazyn rebelianta</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
-            <Original>Rebel Weapon Shop</Original>
+            <Original>Terror Weapons</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes rebel</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
@@ -9884,7 +9906,7 @@
             <Polish>Sklep OLLEN</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Market">
-            <Original>Rebel Market</Original>
+            <Original>Terror Market</Original>
             <Czech>Rebel Market</Czech>
             <French>Marché Rebel</French>
             <Spanish>Mercado Rebelde</Spanish>
