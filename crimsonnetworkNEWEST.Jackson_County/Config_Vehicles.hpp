@@ -82,15 +82,6 @@ class CarShops {
 			{ "shounka_clk_rouge", { "", "", -1 } },
 			{ "shounka_clk_violet", { "", "", -1 } },
 			{ "shounka_clk_jaune", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_bleu", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_bleufonce", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_grise", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_orange", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_noir", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_rose", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_rouge", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_violet", { "", "", -1 } },
-			{ "cg_mercedes_sprinter_van_jaune", { "", "", -1 } },
 			{ "Mrshounka_mercedes_190_p_violet", { "", "", -1 } },
 			{ "Mrshounka_mercedes_190_p_civ", { "", "", -1 } },
 			{ "Mrshounka_mercedes_190_p_mat", { "", "", -1 } },
@@ -301,14 +292,11 @@ class CarShops {
             { "ADM_1964_impala", { "", "", -1 } },
 			{ "ADM_1969_Camaro", { "", "", -1 } },
 			{ "A3L_TahoeBlue", { "", "", -1 } },
-			{ "A3L_TahoeRed", { "", "", -1 } },
-			{ "A3L_TahoeWhite", { "", "", -1 } },
 			{ "A3L_Camaro", { "", "", -1 } },
 			{ "shounka_monsteur_bleufonce", { "", "", -1 } },
 			{ "shounka_monsteur_noir", { "", "", -1 } },
 			{ "shounka_monsteur_grise", { "", "", -1 } },
 			{ "shounka_monsteur_rose", { "", "", -1 } },
-			{ "shounka_monsteur_rouge", { "", "", -1 } },
 			{ "D_Cobalt_Granite_", { "", "", -1 } },
 			{ "D_Cobalt_DarkRed", { "", "", -1 } },
 			{ "D_Cobalt_White", { "", "", -1 } },
@@ -323,19 +311,12 @@ class CarShops {
             { "S_PorscheRS_Black", { "", "", -1 } },
 			{ "S_PorscheRS_White", { "", "", -1 } },
 			{ "S_PorscheRS_Yellow", { "", "", -1 } },
-			{ "ivory_911", { "", "", -1 } },
 			{ "cg_porsche_cayenne_blue", { "", "", -1 } },
 			{ "cg_porsche_cayenne_red", { "", "", -1 } },
 			{ "cg_porsche_cayenne_grey", { "", "", -1 } },
 			{ "cg_porsche_cayenne_yellow", { "", "", -1 } },
 			{ "cg_porsche_cayenne_white", { "", "", -1 } },
 			{ "cg_porsche_cayenne_violet", { "", "", -1 } },
-			{ "bv_gt_navy_blue", { "", "", -1 } },
-			{ "bv_gt_navy_2tone2", { "", "", -1 } },
-			{ "bv_gt_navy_2tone3", { "", "", -1 } },
-			{ "bv_gt_navy_2tone5", { "", "", -1 } },
-			{ "bv_gt_navy_gold", { "", "", -1 } },
-			{ "bv_gt_navy_burgundy", { "", "", -1 } }
         };
     };
 	
@@ -354,7 +335,16 @@ class CarShops {
             { "O_Truck_03_device_F", { "", "", -1 } },
             { "C_Van_01_fuel_F", { "", "", -1 } },
             { "I_Truck_02_fuel_F", { "", "", -1 } },
-            { "B_Truck_01_fuel_F", { "", "", -1 } }
+            { "B_Truck_01_fuel_F", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_bleu", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_bleufonce", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_grise", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_orange", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_noir", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_rose", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_rouge", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_violet", { "", "", -1 } },
+			{ "cg_mercedes_sprinter_van_jaune", { "", "", -1 } },
         };
     };
 
@@ -1279,65 +1269,65 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 	class cg_mercedes_sprinter_van_bleu {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 50000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_bleufonce {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_noir {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_rose {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_rougee {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_violet {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_orange {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_jaune {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
 	class cg_mercedes_sprinter_van_grise {
-        vItemSpace = 180;
+        vItemSpace = 200;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
-        price = 50000;
+        price = 80000;
         textures[] = { };
     };
 	
