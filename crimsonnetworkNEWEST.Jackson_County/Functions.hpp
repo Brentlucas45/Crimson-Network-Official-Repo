@@ -88,7 +88,6 @@ class Life_Client_Core {
         class LoadIntoListbox {};
         class ForcePrice {};
         class DYNMARKET_getPrice {};
-		class DYNMARKET_getIcon {};
     };
 
     class Admin {
