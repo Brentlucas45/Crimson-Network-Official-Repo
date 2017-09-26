@@ -28,11 +28,11 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 		
-		class Ghosts {
-            displayName = "Ghost Gang Base";
-            spawnMarker = "ghosts_1";
+		class Kingsman {
+            displayName = "Kingsman Gang Base";
+            spawnMarker = "kingsman_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "ghosts", true } };
+            licenses[] = { { "kingsman", true } };
             level[] = { "", "", -1 };
         };
 

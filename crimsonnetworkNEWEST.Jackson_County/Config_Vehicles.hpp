@@ -250,6 +250,19 @@ class CarShops {
         };
     };
 	
+	class kingsman_v_shop {
+        side = "civ";
+        vehicles[] = {
+            { "BMW_M5Black", { "", "", -1 } },
+			{ "cg_hummer_h1_noir", { "", "", -1 } },
+			{ "shounka_h2_noir", { "", "", -1 } },
+			{ "cg_raptor_truck_noir", { "", "", -1 } },
+			{ "cg_jeep_blinde_noir", { "", "", -1 } },
+			{ "tcg_hrly_orig1", { "", "", -1 } },
+			{ "Fox_ChallengerBR", { "", "", -1 } }
+        };
+    };
+	
 	class mittsub_shop {
         side = "civ";
         vehicles[] = {
@@ -486,6 +499,41 @@ class LifeCfgVehicles {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;
+        textures[] = { };
+    };
+	
+	class shounka_h2_noir {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 20000;
+        textures[] = { };
+    };
+	
+	class cg_hummer_h1_noir {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 20000;
+        textures[] = { };
+    };
+	
+	class tcg_hrly_orig1 {
+        vItemSpace = 10;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 20000;
+        textures[] = { };
+    };
+	
+	class Fox_ChallengerBR {
+        vItemSpace = 60;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 20000;
+        textures[] = { };
+    };
+	
+	class cg_jeep_blinde_noir {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 20000;
         textures[] = { };
     };
 	
@@ -1636,6 +1684,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 75;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 30000;
+        textures[] = { };
+    };
+	
+		class cg_raptor_truck_noir {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 20000;
         textures[] = { };
     };
 	
