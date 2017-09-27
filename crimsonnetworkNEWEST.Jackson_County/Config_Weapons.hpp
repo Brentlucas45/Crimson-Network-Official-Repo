@@ -79,25 +79,21 @@ class WeaponShops {
         };
     };
 	
-	class ghosts {
-        name = "Ghosts Weapon Shop";
+	class kingsman {
+        name = "Kingsman Weapon Locker";
         side = "civ";
-        license = "ghosts";
+        license = "kingsman";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "RH_M27IAR", "", 25000, -1 },
-            { "RH_tec9", "", 20000, -1 },
+            { "RH_fnp45", "", 25000, -1 },
 			{ "tf_anprc152_1", "", 1000, -1 }
         };
         mags[] = {
-            { "RH_60Rnd_556x45_M855A1", "", 300 },
-            { "RH_32Rnd_9x19_tec", "", 125 }
+            { "RH_15Rnd_45cal_fnp", "", 300 }
         };
         accs[] = {
-            { "optic_ACO_grn", "", 3500 },
-            { "optic_Holosight", "", 3600 },
-            { "optic_Hamr", "", 7500 },
-            { "acc_flashlight", "", 1000 }
+            { "RH_docter", "", 300 },
+            { "RH_M6X", "", 300 }
         };
     };
 

@@ -6645,6 +6645,28 @@
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
         </Key>
+		<Key ID="STR_Shop_C_kingsman">
+            <Original>Kingsman Clothing Locker</Original>
+            <Czech>Kingsman Clothing Locker</Czech>
+            <Spanish>Kingsman Clothing Locker</Spanish>
+            <Russian></Russian>
+            <German>Kingsman Clothing Locker</German>
+            <French>License de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
+		<Key ID="STR_Shop_W_kingsman">
+            <Original>Kingsman Weapon Locker</Original>
+            <Czech>Kingsman Weapon Locker</Czech>
+            <Spanish>Kingsman Weapon Locker</Spanish>
+            <Russian></Russian>
+            <German>Kingsman Weapon Locker</German>
+            <French>License de Pilote</French>
+            <Italian>Licenza da Pilota</Italian>
+            <Portuguese>Licença de Piloto</Portuguese>
+            <Polish>Licencja Pilota</Polish>
+        </Key>
         <Key ID="STR_License_Heroin">
             <Original>Heroin Training</Original>
             <Czech>heroin Training</Czech>

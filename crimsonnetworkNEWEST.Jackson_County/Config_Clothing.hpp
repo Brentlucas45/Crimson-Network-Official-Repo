@@ -384,24 +384,24 @@ class Clothing {
         };
     };
 	
-	class ghosts {
-        title = "STR_Shops_C_ghosts";
-        license = "ghosts";
+	class kingsman {
+        title = "STR_Shops_C_kingsman";
+        license = "kingsman";
         side = "civ";
         uniforms[] = {
-            { "TRYK_U_B_BLKBLK_CombatUniform", "", 100, { "", "", -1 } }
+            { "KAEL_SUITS_BR_F12", "", 100, { "", "", -1 } }
         };
         headgear[] = {
-            { "TRYK_H_PASGT_BLK", "", 100, { "", "", -1 } }
+            { "H_RacingHelmet_1_black_f", "", 100, { "", "", -1 } }
         };
         goggles[] = {
-            { "TRYK_kio_balaclava_ear", "", 100, { "", "", -1 } }
+            { "G_Bandanna_blk", "", 100, { "", "", -1 } }
         };
         vests[] = {
-            { "TRYK_V_ArmorVest_Delta2", "", 100, { "", "", -1 } }
+            { "EF_GSG9_2P", "", 100, { "", "", -1 } }
         };
         backpacks[] = {
-            { "TRYK_Winter_pack", "", 0, { "", "", -1 } }
+            { "B_mas_kitbag_black", "", 0, { "", "", -1 } }
         };
     };
 
