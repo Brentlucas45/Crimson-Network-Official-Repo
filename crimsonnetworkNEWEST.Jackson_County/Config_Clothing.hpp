@@ -264,7 +264,8 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "TRYK_G_bala_ess_NV", "", 10, { "", "", -1 } }
+            { "TRYK_G_bala_ess_NV", "", 10, { "", "", -1 } },
+			{ "CPE_MK50", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
@@ -302,7 +303,8 @@ class Clothing {
             { "G_Shades_Black", "", 25, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
             { "G_Combat", "", 55, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } }
+            { "G_Aviator", "", 100, { "", "", -1 } },
+			{ "CPE_MK50", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
