@@ -46,6 +46,17 @@ playerNearGas=false;
          addCamShake [10, 45, 10];
          player setFatigue 1;
          5 fadeSound 0.1;
+        
+		};
+		
+		if (antidote1 == 2581) then {
+         "dynamicBlur" ppEffectEnable false;
+         "dynamicBlur" ppEffectAdjust [0];
+         "dynamicBlur" ppEffectCommit 3;
+         enableCamShake false;
+         addCamShake [0, 0, 0];
+         player setFatigue 1;
+         0 fadeSound 0;
         };
 
     uiSleep 1;
