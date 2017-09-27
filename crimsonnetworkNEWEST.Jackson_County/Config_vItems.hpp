@@ -21,7 +21,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "coffee", "donuts", "waterBottle", "rabbit", "apple", "redgull", "tbacon" };
+        items[] = { "coffee", "waterBottle", "bigmac", "apple"};
     };
 
     class med_market {
@@ -658,6 +658,17 @@ class VirtualItems {
         illegal = false;
         edible = 40;
         icon = "icons\ico_tBacon.paa";
+    };
+	
+	class bigmac {
+        variable = "bigmac";
+        displayName = "STR_Item_BigMac";
+        weight = 1;
+        buyPrice = 100;
+        sellPrice = 25;
+        illegal = false;
+        edible = 75;
+        icon = "icons\ico_chickenDrumstick.paa";
     };
 
     class donuts {

@@ -6445,6 +6445,17 @@
             <Portuguese>Bacon Tático</Portuguese>
             <Polish>Posiłek taktyczny</Polish>
         </Key>
+		<Key ID="STR_Item_BigMac">
+            <Original>Big Mac</Original>
+            <Czech>Big Mac</Czech>
+            <Spanish>Big Mac</Spanish>
+            <Russian></Russian>
+            <German>Big Mac</German>
+            <French>Bacon tactique</French>
+            <Italian>Carne secca</Italian>
+            <Portuguese>Bacon Tático</Portuguese>
+            <Polish>Posiłek taktyczny</Polish>
+        </Key>
         <Key ID="STR_Item_RedGull">
             <Original>RedGull</Original>
             <Czech>RedGull</Czech>

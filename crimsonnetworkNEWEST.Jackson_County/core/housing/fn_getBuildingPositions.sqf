@@ -14,8 +14,8 @@ _restricted = switch (typeOf _building) do {
 case "Land_i_House_Big_02_V1_F": {[0,1,2,3,4]};
 case "Land_i_House_Big_02_V2_F": {[0,1,2,3,4]};
 case "Land_i_House_Big_02_V3_F": {[0,1,2,3,4]};
-case "Land_HouseDoubleAL": {[0,1,2,3,4,5,6,7,8]};
-case "Land_HouseDoubleAL2": {[0,1,2,3,4,5,6,7,8]};
+case "Land_HouseDoubleAL": {[0,1,2,3,4]};
+case "Land_HouseDoubleAL2": {[0,1,2,3,4]};
 case "Land_i_House_Big_01_V1_F": {[2,3]};
 case "Land_i_House_Big_01_V2_F": {[2,3]};
 case "Land_i_House_Big_01_V3_F": {[2,3]};
