@@ -668,7 +668,7 @@ class VirtualItems {
         sellPrice = 25;
         illegal = false;
         edible = 75;
-        icon = "icons\ico_chickenDrumstick.paa";
+        icon = "icons\ico_bigmac.paa";
     };
 
     class donuts {
