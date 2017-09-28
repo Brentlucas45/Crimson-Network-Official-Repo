@@ -306,7 +306,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "A3L_sheriffvest", "Sherrif Vest", 0, { "", "", -1 } },
+            { "A3L_sheriffvest", "Sheriff Vest", 0, { "", "", -1 } },
             { "PRO_SOVEST_Command", "Command Vest", 0, { "", "", -1 } },
             { "A3L_ftovest2", "FTO Vest", 0, { "", "", -1 } }
         };
