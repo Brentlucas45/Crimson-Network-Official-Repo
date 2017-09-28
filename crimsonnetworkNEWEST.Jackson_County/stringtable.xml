@@ -6456,6 +6456,17 @@
             <Portuguese>Bacon Tático</Portuguese>
             <Polish>Posiłek taktyczny</Polish>
         </Key>
+		<Key ID="STR_Item_McNuggets">
+            <Original>McNuggets</Original>
+            <Czech>McNuggets</Czech>
+            <Spanish>McNuggets</Spanish>
+            <Russian></Russian>
+            <German>McNuggets</German>
+            <French>Bacon tactique</French>
+            <Italian>Carne secca</Italian>
+            <Portuguese>Bacon Tático</Portuguese>
+            <Polish>Posiłek taktyczny</Polish>
+        </Key>
         <Key ID="STR_Item_RedGull">
             <Original>RedGull</Original>
             <Czech>RedGull</Czech>

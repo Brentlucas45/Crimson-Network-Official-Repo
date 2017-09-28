@@ -21,7 +21,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "coffee", "waterBottle", "bigmac", "apple"};
+        items[] = { "coffee", "waterBottle", "bigmac", "mcnuggets"};
     };
 
     class med_market {
@@ -669,6 +669,17 @@ class VirtualItems {
         illegal = false;
         edible = 75;
         icon = "icons\ico_bigmac.paa";
+    };
+	
+	class mcnuggets {
+        variable = "mcnuggets";
+        displayName = "STR_Item_McNuggets";
+        weight = 1;
+        buyPrice = 100;
+        sellPrice = 25;
+        illegal = false;
+        edible = 75;
+        icon = "icons\ico_mcnuggets.paa";
     };
 
     class donuts {
