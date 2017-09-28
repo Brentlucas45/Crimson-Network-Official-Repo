@@ -308,6 +308,17 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_platinum.paa";
     };
+	
+	class crackpipe {
+        variable = "crackpipe";
+        displayName = "STR_Item_crackpipe";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 55000;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_crackpipe.paa";
+    };
 
     class blastingcharge {
         variable = "blastingCharge";
