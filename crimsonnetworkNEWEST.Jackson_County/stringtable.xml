@@ -6280,6 +6280,50 @@
             <Portuguese>Tanque de Gasolina Vazio</Portuguese>
             <Polish>Pusty kanister</Polish>
         </Key>
+		<Key ID="STR_Item_ruby">
+            <Original>Ruby</Original>
+            <Czech>Ruby</Czech>
+            <Spanish>Envase de Combustible Vacio</Spanish>
+            <Russian></Russian>
+            <German>Leerer Benzinkanister</German>
+            <French>Jerrican Vide</French>
+            <Italian>Tanica di carburante vuota</Italian>
+            <Portuguese>Tanque de Gasolina Vazio</Portuguese>
+            <Polish>Pusty kanister</Polish>
+        </Key>
+		<Key ID="STR_Item_sapphire">
+            <Original>Sapphire</Original>
+            <Czech>Sapphire</Czech>
+            <Spanish>Envase de Combustible Vacio</Spanish>
+            <Russian></Russian>
+            <German>Leerer Benzinkanister</German>
+            <French>Jerrican Vide</French>
+            <Italian>Tanica di carburante vuota</Italian>
+            <Portuguese>Tanque de Gasolina Vazio</Portuguese>
+            <Polish>Pusty kanister</Polish>
+        </Key>
+		<Key ID="STR_Item_emerald">
+            <Original>Emerald</Original>
+            <Czech>Emerald</Czech>
+            <Spanish>Envase de Combustible Vacio</Spanish>
+            <Russian></Russian>
+            <German>Leerer Benzinkanister</German>
+            <French>Jerrican Vide</French>
+            <Italian>Tanica di carburante vuota</Italian>
+            <Portuguese>Tanque de Gasolina Vazio</Portuguese>
+            <Polish>Pusty kanister</Polish>
+        </Key>
+		<Key ID="STR_Item_platinum">
+            <Original>Platinum</Original>
+            <Czech>Platinum</Czech>
+            <Spanish>Envase de Combustible Vacio</Spanish>
+            <Russian></Russian>
+            <German>Leerer Benzinkanister</German>
+            <French>Jerrican Vide</French>
+            <Italian>Tanica di carburante vuota</Italian>
+            <Portuguese>Tanque de Gasolina Vazio</Portuguese>
+            <Polish>Pusty kanister</Polish>
+        </Key>
         <Key ID="STR_Item_FuelF">
             <Original>Full Fuel Canister</Original>
             <Czech>Plná palivo může</Czech>
@@ -9874,6 +9918,17 @@
         </Key>
         <Key ID="STR_MAR_Gold_Bars_Buyer">
             <Original>Gold Bars Buyer</Original>
+            <Czech>Gold Bary kupujícího</Czech>
+            <French>Acheteur d'or</French>
+            <Spanish>Comprador de Oro</Spanish>
+            <Russian></Russian>
+            <German>Händler für Goldbarren</German>
+            <Portuguese>Comprador de Barras de Ouro</Portuguese>
+            <Polish>Skup złota</Polish>
+            <Italian>Gioielliere</Italian>
+        </Key>
+		<Key ID="STR_MAR_Dirty_Blonde_Pawn">
+            <Original>Dirty Blonde Pawn</Original>
             <Czech>Gold Bary kupujícího</Czech>
             <French>Acheteur d'or</French>
             <Spanish>Comprador de Oro</Spanish>

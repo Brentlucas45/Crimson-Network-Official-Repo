@@ -143,6 +143,14 @@ class VirtualShops {
         level[] = { "", "", -1, "" };
         items[] = { "goldbar" };
     };
+	
+	class pawnshop {
+        name = "STR_Shops_Dirty_Blonde_Pawn";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "goldbar", "ruby", "sapphire", "emerald", "obsidian", "platinum" };
+    };
 
     class cop {
         name = "STR_Shops_Cop";
@@ -245,7 +253,7 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_lockpick.paa";
     };
-
+	
     class goldbar {
         variable = "goldBar";
         displayName = "STR_Item_GoldBar";
@@ -255,6 +263,50 @@ class VirtualItems {
         illegal = true;
         edible = -1;
         icon = "icons\ico_goldBar.paa";
+    };
+	
+	class ruby {
+        variable = "ruby";
+        displayName = "STR_Item_ruby";
+        weight = 12;
+        buyPrice = -1;
+        sellPrice = 90000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_ruby.paa";
+    };
+	
+	class sapphire {
+        variable = "sapphire";
+        displayName = "STR_Item_sapphire";
+        weight = 12;
+        buyPrice = -1;
+        sellPrice = 85000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_sapphire.paa";
+    };
+	
+	class emerald {
+        variable = "emerald";
+        displayName = "STR_Item_emerald";
+        weight = 12;
+        buyPrice = -1;
+        sellPrice = 80000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_emerald.paa";
+    };
+	
+	class platinum {
+        variable = "platinum";
+        displayName = "STR_Item_platinum";
+        weight = 12;
+        buyPrice = -1;
+        sellPrice = 75000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_platinum.paa";
     };
 
     class blastingcharge {
