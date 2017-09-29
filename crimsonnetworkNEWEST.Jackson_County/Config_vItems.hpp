@@ -18,7 +18,7 @@ class VirtualShops {
 	
 	class fast_food {
         name = "STR_Fast_Food";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "coffee", "waterBottle", "bigmac", "mcnuggets"};
@@ -77,7 +77,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
+        items[] = { "cocaine_processed", "heroin_processed", "marijuana", "crackpipe" };
     };
 
     class oil {
@@ -314,7 +314,7 @@ class VirtualItems {
         displayName = "STR_Item_crackpipe";
         weight = 6;
         buyPrice = -1;
-        sellPrice = 55000;
+        sellPrice = 40000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_crackpipe.paa";
