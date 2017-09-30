@@ -3,20 +3,20 @@
 	Author: RIB
 	
 */
-if((west countSide playableUnits) < 3) exitWith {hint "There needs to be 3 or more cops online to use the Laptop."};
+if((west countSide playableUnits) < 1) exitWith {hint "There needs to be at least 1 cop online to use the Laptop."};
 private["_robber","_timer","_funds"];
 
 _vault = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-_funds = 50000 + round(random 300000);
+_funds = 5000 + round(random 100000);
 
-if(player distance _vault > 10) exitWith {[[_vault,-1],"TON_fnc_robberyState",false,false] spawn life_fnc_MP; hint "You were to stay within 10m of the target!"};
+if(player distance _vault > 20) exitWith {[[_vault,-1],"TON_fnc_robberyState",false,false] spawn life_fnc_MP; hint "You were to stay within 20m of the laptop!"};
 if(currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! Get out of here you hobo!" };
 if(life_inv_hackingtool < 1 ) exitwith {
 	hint "You need some sort of hacking device to unlock this safe..";
 
 _timer = time + (10 * 60); //Default timer is 20 minutes to rob.
 titleText["HACKING THE BANK...","PLAIN"];
-[[2,"<> LAKESIDE BANK IS BEING ROBBED<>!!! $$$"],"life_fnc_broadcast",west] spawn life_fnc_MP;
+[[2,"<> A LOCAL BANK IS BEING ROBBED<>!!! $$$"],"life_fnc_broadcast",west] spawn life_fnc_MP;
 //[[_vault],"life_fnc_bankalarmsound",nil,true] spawn life_fnc_MP; Custom line, delete or keep commented out.
 
 while {true} do
@@ -67,7 +67,7 @@ if(isNil "life_session_station") then {life_session_station = false;};
 if(life_session_station) exitWith {hint "You have already robbed the bank wait 20 minutes.";};
 
 life_cash = life_cash + _funds; //Self explanatory
-		hint format["The Lakeside Bank was hacked and money was stolen $%1",_funds]; //Give them a nice message		
+		hint format["The Local Bank was hacked and money was stolen $%1",_funds]; //Give them a nice message		
 };//Close the if statement
 	
 	};	
