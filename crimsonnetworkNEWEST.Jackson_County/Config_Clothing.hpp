@@ -275,6 +275,36 @@ class Clothing {
 			{ "AM_PoliceBelt", "Police Duty Belt", 0, { "", "", -1 } }
         };
     };
+	
+	class dtu {
+        title = "STR_Shops_C_dtu";
+        license = "dtu";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, { "", "", -1 } },
+            { "TRYK_shirts_DENIM_RED2", "", 0, { "", "", -1 } },
+			{ "TRYK_shirts_DENIM_BWH", "", 0, { "", "", -1 } },
+			{ "TRYK_shirts_DENIM_ylb", "", 0, { "", "", -1 } }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "TRYK_R_CAP_TAN", "", 0, { "", "", -1 } },
+			{ "TRYK_R_CAP_BLK", "", 0, { "", "", -1 } }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, { "", "", -1 } },
+            { "G_Aviator", "", 10, { "", "", -1 } }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+            { "DTU_VEST_TACTICAL_BK", "", 0, { "", "", -1 } },
+			{ "DTU_VEST_TACTICAL_TAN", "", 0, { "", "", -1 } }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "AM_PoliceBelt", "Police Duty Belt", 0, { "", "", -1 } }
+        };
+    };
 
     class cop {
         title = "STR_Shops_C_Police";

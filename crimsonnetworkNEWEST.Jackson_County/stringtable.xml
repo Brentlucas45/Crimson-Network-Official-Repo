@@ -90,7 +90,7 @@
             <German>Altis Police Department-Shop</German>
         </Key>
 		<Key ID="STR_MAR_SERT_Weapons">
-            <Original>SERT Weapons</Original>
+            <Original>S.E.R.T Weapons</Original>
             <Czech>Altis policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>
@@ -102,6 +102,17 @@
         </Key>
 		<Key ID="STR_MAR_Corporal_Weapon_Shop">
             <Original>Corporal Shop</Original>
+            <Czech>Altis policejní oddělení Shop</Czech>
+            <French>Boutique de la police</French>
+            <Spanish>Tienda del Departamento de Policía</Spanish>
+            <Russian></Russian>
+            <Portuguese>Loja de Roupas Policiais</Portuguese>
+            <Polish>Sklep Policyjny</Polish>
+            <Italian>Dipartimento della Polizia di Altis</Italian>
+            <German>Altis Police Department-Shop</German>
+        </Key>
+		<Key ID="STR_Shops_C_dtu">
+            <Original>DTU Clothing</Original>
             <Czech>Altis policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>

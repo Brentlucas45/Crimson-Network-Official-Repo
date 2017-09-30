@@ -202,6 +202,14 @@ class Licenses {
         illegal = false;
         side = "cop";
     };
+	
+	class dtu {
+        variable = "dtu";
+        displayName = "dtu";
+        price = 8000;
+        illegal = false;
+        side = "cop";
+    };
 
     //Medic Licenses
     class mAir {
