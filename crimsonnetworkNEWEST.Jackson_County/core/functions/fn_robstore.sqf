@@ -57,7 +57,7 @@ if(_robber distance _shop > 10.5) exitWith { };
 if!(alive _robber) exitWith {};
 };
 if!(alive _robber) exitWith { _rip = false; };
-if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "You need to stay within 10m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
+if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "You need to stay within 10m to Rob registry! - Now the register is locked."; "progressBar" cutRsc ["life_progress","PLAIN"]; _rip = false; };
 "progressBar" cutRsc ["life_progress","PLAIN"];
 
 titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
