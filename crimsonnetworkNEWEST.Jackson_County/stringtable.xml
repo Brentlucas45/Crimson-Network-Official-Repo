@@ -8055,7 +8055,7 @@
             <Polish>Sprzedaj garaż</Polish>
         </Key>
 		<Key ID="STR_InsuranceApply"> 
-			<Original>You just insure your vehicle you are now protected against explosions!</Original> 
+			<Original>You just insured your vehicle, you are now protected against explosions!</Original> 
 			<Czech> Now you insure your vehicle is now protected against explosions ! </Czech> 
 			<Spanish> You just make sure your vehicle is now protected against explosions ! </Spanish> 
 			<Italian> Just ensure your vehicle you are now protected against explosions ! </Italian> 
