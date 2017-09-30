@@ -205,7 +205,7 @@ class Licenses {
 	
 	class dtu {
         variable = "dtu";
-        displayName = "dtu";
+        displayName = "Str_License_dtu";
         price = 8000;
         illegal = false;
         side = "cop";

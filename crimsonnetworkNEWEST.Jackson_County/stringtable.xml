@@ -6810,6 +6810,17 @@
             <Portuguese>Licença do Bope</Portuguese>
             <Polish>Trening SWAT</Polish>
         </Key>
+		<Key ID="STR_License_dtu">
+            <Original>DTU License</Original>
+            <Czech>DTU licence</Czech>
+            <Spanish>Licencia SWAT</Spanish>
+            <Russian></Russian>
+            <German>SWAT-Lizenz</German>
+            <French>License du SWAT</French>
+            <Italian>Licenza SWAT</Italian>
+            <Portuguese>Licença do Bope</Portuguese>
+            <Polish>Trening SWAT</Polish>
+        </Key>
         <Key ID="STR_License_CG">
             <Original>Coast Guard License</Original>
             <Czech>Pobřežní stráž licence</Czech>
