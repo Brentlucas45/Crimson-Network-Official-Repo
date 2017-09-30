@@ -405,9 +405,11 @@ class WeaponShops {
             { "RH_M4_moe_b", "", 100, -1 },
 			{ "prpl_benelli", "", 100, 5000 },
 			{ "hlc_rifle_awmagnum_BL", "", 100, -1 },
-			{ "RH_compm4s", "", 300, -1 },
 			{ "RH_M4A6", "", 100, -1 },
 			{ "CSW_FN57_Ballistic_Shield", "Shield", 100, -1 },
+			{ "RH_ta648", "", 100 },
+			{ "RH_compm4s", "", 300, -1 },
+			{ "RH_SFM952V", "", 100 }
         };
         mags[] = {
             { "RH_30Rnd_556x45_M855A1", "", 100 },
@@ -418,9 +420,6 @@ class WeaponShops {
 			{ "CSW_20Rnd_57x28_SS190", "", 100 }
         };
         accs[] = {
-            { "RH_compm4s", "", 100 },
-			{ "RH_SFM952V", "", 100 },
-			{ "RH_ta648", "", 100 },
 			{ "CSW_FN57_Shield_P", "", 100 }
         };
     };
