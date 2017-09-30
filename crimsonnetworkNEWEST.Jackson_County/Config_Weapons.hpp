@@ -48,15 +48,15 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_AK12_F", "", 850000, -1 },
-			{ "RH_m4", "", 700000, -1 },
-			{ "RH_M4_moe_g", "", 700000, -1 },
+            { "arifle_AK12_F", "", 200000, -1 },
+			{ "RH_m4", "", 200000, -1 },
+			{ "RH_M4_moe_g", "", 200000, -1 },
 			{ "RH_Deagleg", "", 75000, -1 },
-			{ "RH_g18", "", 100000 },
-			{ "hlc_smg_mp5k", "", 320000 },
-			{ "RH_muzi", "", 200000 },
-			{ "RH_vz61", "", 150000 },
-            { "RH_compM4s", "", 20000, -1 },
+			{ "RH_g18", "", 90000 },
+			{ "hlc_smg_mp5k", "", 150000 },
+			{ "RH_muzi", "", 90000 },
+			{ "RH_vz61", "", 80000 },
+            { "RH_compM4s", "", 8000, -1 },
 			
         };
         mags[] = {
@@ -195,11 +195,11 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 1, "You must be an Officer Rank!" };
         items[] = {
-            { "A3L_Glock17", "", 100, -1 },
+            { "RH_g17", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
         };
         accs[] = {
 			{ "RH_M6X", "", 100 }
@@ -213,13 +213,13 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "You must be an Officer Rank!" };
         items[] = {
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-			{ "A3L_Glock17", "", 100, -1 },
+			{ "RH_g17", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
 			{ "11Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
@@ -236,13 +236,13 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "You must be an Officer Rank!" };
         items[] = {
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-			{ "A3L_Glock17", "", 100, -1 },
+			{ "RH_g17", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
 			{ "11Rnd_45ACP_Mag", "", 100 }
         };
         accs[] = {
@@ -260,20 +260,23 @@ class WeaponShops {
         items[] = {
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "A3L_Glock17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 },
-			{ "hgun_ACPC2_F", "", 100, -1 }
+            { "RH_g17", "", 100, -1 },
+			{ "hgun_ACPC2_F", "", 100, -1 },
+			{ "hlc_smg_mp5a4", "", 100, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 }
+			{ "9Rnd_45ACP_Mag", "", 100 },
+			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
         };
         accs[] = {
 			{ "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 } 
+			{ "optic_MRD", "", 100 } ,
+			{ "RH_compm4s", "", 100, }
         };
     };
 	
@@ -286,23 +289,28 @@ class WeaponShops {
 			{ "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "A3L_Glock17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 },
+            { "RH_g17", "", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_python", "", 100, -1 }
+			{ "RH_python", "", 100, -1 },
+			{ "hlc_smg_mp5a4", "", 100, -1 },
+			{ "RH_M4A6", "", 100, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mah", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
-			{ "RH_6Rnd_357_Mag", "", 100 }
+			{ "RH_6Rnd_357_Mag", "", 100 },
+			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
+			{ "RH_30Rnd_68x43_FMJ", "", 100, -1 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 } 
+			{ "optic_MRD", "", 100 },
+			{ "RH_compm4s", "", 100, }
         };
     };
 	
@@ -315,25 +323,32 @@ class WeaponShops {
             { "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "A3L_Glock17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 },
+            { "RH_g17", "", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
 			{ "RH_python", "", 100, -1 },
-			{ "RH_bullb", "", 100, -1 }
+			{ "RH_bullb", "", 100, -1 },
+			{ "hlc_smg_mp5a4", "", 100, -1 },
+			{ "RH_M4A6", "", 100, -1 },
+			{ "RH_hb", "", 100, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
 			{ "RH_6Rnd_357_Mag", "", 100 },
-			{ "RH_6Rnd_454_Mag", "", 100 }
+			{ "RH_6Rnd_454_Mag", "", 100 },
+			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
+			{ "RH_30Rnd_68x43_FMJ", "", 100, -1 },
+			{ "RH_30Rnd_762x35_FMJ", "", 100, -1 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 } 
+			{ "optic_MRD", "", 100 },
+			{ "RH_compm4s", "", 100 },
         };
     };
 	
@@ -346,50 +361,67 @@ class WeaponShops {
             { "RH_kimber_nw", "", 100, -1 },
             { "hgun_Pistol_heavy_01_F", "", 100, -1 },
             { "RH_m9", "", 100, -1 },
-            { "A3L_Glock17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 },
+            { "RH_g17", "", 100, -1 },
 			{ "hgun_ACPC2_F", "", 100, -1 },
 			{ "RH_python", "", 100, -1 },
 			{ "RH_bullb", "", 100, -1 },
-			{ "RH_Deaglem", "", 100, -1 }
+			{ "RH_Deaglem", "", 100, -1 },
+			{ "hlc_smg_mp5a4", "", 100, -1 },
+			{ "RH_M4A6", "", 100, -1 },
+			{ "RH_hb", "", 100, -1 },
+			{ "RH_SR25EC", "", 100, -1 },
+			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 100 },
-            { "A3L_Glock17mag", "", 100 },
+            { "RH_17Rnd_9x19_g17", "", 100 },
             { "11Rnd_45ACP_Mag", "", 100 },
 			{ "9Rnd_45ACP_Mag", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
 			{ "RH_6Rnd_357_Mag", "", 100 },
 			{ "RH_6Rnd_454_Mag", "", 100 },
-			{ "RH_7Rnd_50_AE", "", 100 }
+			{ "RH_7Rnd_50_AE", "", 100 },
+			{ "hlc_30Rnd_9x19_B_MP5", "", 100 },
+			{ "RH_30Rnd_68x43_FMJ", "", 100 },
+			{ "RH_30Rnd_762x35_FMJ", "", 100 },
+			{ "RH_20Rnd_762x51_Mk319", "", 100 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
 			{ "optic_MRD", "", 100 },
 			{ "optic_Yorris", "", 100 },
-			{ "RH_demz", "", 100 }
+			{ "RH_demz", "", 100 },
+			{ "RH_compm4s", "", 100, }
         };
     };
 	
-	class cop_redweapons {
-        name = "Code Red Weapons";
+	class cop_sertweapons {
+        name = "SERT Weapons";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
             { "RH_M4_moe_b", "", 100, -1 },
 			{ "prpl_benelli", "", 100, 5000 },
-			{ "RH_compm4s", "", 300, -1 }
+			{ "hlc_rifle_awmagnum_BL", "", 100, -1 },
+			{ "RH_compm4s", "", 300, -1 },
+			{ "RH_M4A6", "", 100, -1 },
+			{ "CSW_FN57_Ballistic_Shield", "Shield", 100, -1 },
         };
         mags[] = {
             { "RH_30Rnd_556x45_M855A1", "", 100 },
 			{ "prpl_8Rnd_12Gauge_Slug", "", 100 },
-			{ "prpl_8Rnd_12Gauge_Pellets", "", 100 }
+			{ "prpl_8Rnd_12Gauge_Pellets", "", 100 },
+			{ "hlc_5rnd_300WM_FMJ_AWM", "", 100 },
+			{ "RH_30Rnd_68x43_FMJ", "", 100 },
+			{ "CSW_20Rnd_57x28_SS190", "", 100 }
         };
         accs[] = {
             { "RH_compm4s", "", 100 },
-			{ "RH_SFM952V", "", 100 }
+			{ "RH_SFM952V", "", 100 },
+			{ "RH_ta648", "", 100 },
+			{ "CSW_FN57_Shield_P", "", 100 }
         };
     };
 	

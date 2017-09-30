@@ -89,8 +89,8 @@
             <Italian>Dipartimento della Polizia di Altis</Italian>
             <German>Altis Police Department-Shop</German>
         </Key>
-		<Key ID="STR_MAR_Code_Red_Weapons">
-            <Original>Code Red Weapons Shop</Original>
+		<Key ID="STR_MAR_SERT_Weapons">
+            <Original>SERT Weapons</Original>
             <Czech>Altis policejní oddělení Shop</Czech>
             <French>Boutique de la police</French>
             <Spanish>Tienda del Departamento de Policía</Spanish>

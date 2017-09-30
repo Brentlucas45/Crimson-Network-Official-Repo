@@ -286,10 +286,10 @@ class Clothing {
 			{ "PRO_SOSO", "Officer", 0, { "", "", -1 } },
 			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
 			{ "PRO_SOSGT", "Sergeant", 0, { "", "", -1 } },
-			{ "PRO_SOLT", "Lieutenant", 0, { "", "", -1 } },
-            { "PRO_SOCPT", "Captain", 0, { "", "", -1 } },
-            { "PRO_SOACHIEF", "Under Chief", 0, { "", "", -1 } },
-			{ "PRO_SOCHIEF", "Chief", 0, { "", "", -1 } },
+			{ "A3L_SOLieutenant_Uniform", "Lieutenant", 0, { "", "", -1 } },
+            { "A3L_SOCaptain_Uniform", "Captain", 0, { "", "", -1 } },
+            { "A3L_SOUnderSheriff_Uniform", "Under Chief", 0, { "", "", -1 } },
+			{ "A3L_SOSheriff_Uniform", "Chief", 0, { "", "", -1 } },
 			{ "fto_uni", "FTO Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
