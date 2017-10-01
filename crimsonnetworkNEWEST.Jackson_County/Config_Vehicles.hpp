@@ -422,22 +422,28 @@ class CarShops {
 			{ "A3L_CVPIUCBlack", { "", "", -1 } },
 			{ "A3L_CVPIUCWhite", { "", "", -1 } },
 			{ "A3L_CVPIUCRed", { "", "", -1 } },
-			{ "A3L_CVPIFPBCSO", { "", "", -1 } },
-			{ "A3L_CVPIFPBFG", { "", "", -1 } },
-			{ "A3L_TaurusFPBLBCSO", { "", "", -1 } },
-			{ "cg_taurustrooper", { "", "", -1 } },
 			{ "A3L_TaurusUC", { "", "", -1 } },
 			{ "A3L_TaurusUCWhite", { "", "", -1 } },
 			{ "A3L_TaurusUCGrey", { "", "", -1 } },
-			{ "A3L_Charger_Patrol", { "", "", -1 } },
+			{ "A3L_TaurusFPBLBCSO", { "", "", -1 } },
+			{ "A3L_TaurusFPBCSO", { "", "", -1 } },
+			{ "A3L_SuburbanCSO", { "", "", -1 } },
+			{ "EvoxSO1", { "", "", -1 } },
+			{ "cg_trooperevo", { "", "", -1 } },
+			{ "cg_taurustrooper", { "", "", -1 } },
+			{ "A3L_CVPIFPBHP", { "", "", -1 } },
+			{ "cg_cvpitrooper", { "", "", -1 } },
+			{ "A3L_CVPIFPBFG", { "", "", -1 } },
+			{ "cg_evoblack", { "", "", -1 } },
+			{ "A3L_CVPIFPBCSO", { "", "", -1 } },
+			{ "A3L_CVPIFPBLBCSO", { "", "", -1 } },
 			{ "A3L_ChargerUC_Blue_New", { "", "", -1 } },
+			{ "A3L_ChargerUC_White_New", { "", "", -1 } },
 			{ "A3L_ChargerSERTLB", { "", "", -1 } },
 			{ "A3L_jailbus", { "", "", -1 } },
 			{ "cg_h2_sert", { "", "", -1 } },
 			{ "ivory_evox_unmarked", { "", "", -1 } },
-			{ "cg_evopol1", { "", "", -1 } },
-			{ "ivory_m3_unmarked", { "", "", -1 } },
-			{ "A3L_TahoeCSOLBPB", { "", "", -1 } }
+			{ "ivory_m3_unmarked", { "", "", -1 } }
         };
     };
 
@@ -572,34 +578,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	
-	class A3L_CVPIFPBCSO {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_CVPIFPBFG {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class A3L_TaurusFPBLBCSO {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
-	class cg_taurustrooper {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
 	class A3L_TaurusUC {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -621,13 +599,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	
-	class A3L_Charger_Patrol {
-        vItemSpace = 65;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 12500;
-        textures[] = { };
-    };
-	
 	class A3L_ChargerUC_Blue_New {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -642,7 +613,91 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 	
-	class A3L_TahoeCSOLBPB {
+	class EvoxSO1 {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_trooperevo {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_ChargerUC_White_New {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBLBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusFPBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_TaurusFPBLBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_SuburbanCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBFG {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class A3L_CVPIFPBHP {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_cvpitrooper {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_taurustrooper {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class cg_evoblack {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;
