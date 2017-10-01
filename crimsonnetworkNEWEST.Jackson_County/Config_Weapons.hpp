@@ -195,11 +195,10 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 1, "You must be an Officer Rank!" };
         items[] = {
-            { "RH_g17", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 }
+            { "RH_m9", "", 100, -1 }
         };
         mags[] = {
-            { "RH_17Rnd_9x19_g17", "", 100 },
+            { "RH_15Rnd_9x19_m9", "", 100 }
         };
         accs[] = {
 			{ "RH_M6X", "", 100 }
@@ -212,19 +211,16 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be an Officer Rank!" };
         items[] = {
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
 			{ "RH_g17", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "HandGrenade_Stone", "Flashbang", 100, -1 }
+            { "RH_g19", "", 100, -1 },
+			{ "Hlc_smg_mp5a2", "MP5 CODE RED ONLY!", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
             { "RH_17Rnd_9x19_g17", "", 100 },
-			{ "11Rnd_45ACP_Mag", "", 100 }
+			{ "hlc_30Rnd_9x19_B_MP5", "", 100 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
-			{ "optic_MRD", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 }
         };
     };
@@ -235,19 +231,18 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "You must be an Officer Rank!" };
         items[] = {
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-			{ "RH_g17", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
+			{ "RH_cz75", "", 100, -1 },
+			{ "RH_kimber_nw", "", 100, -1 },
+			{ "RH_SBR9", "SBR 9 CODE RED ONLY!", 100, -1 },
             { "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_17Rnd_9x19_g17", "", 100 },
-			{ "11Rnd_45ACP_Mag", "", 100 }
+			{ "RH_16Rnd_9x19_CZ", "", 100, -1 },
+			{ "RH_7Rnd_45cal_m1911", "", 100, -1 },
+			{ "RH_32Rnd_9mm_M822", "", 100, -1 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
-			{ "optic_MRD", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 }
         };
     };
@@ -258,24 +253,23 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a Sergeant Rank!" };
         items[] = {
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "RH_g17", "", 100, -1 },
-			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "hlc_smg_mp5a4", "", 100, -1 },
+			{ "RH_sbr9", "", 100, -1 },
+			{ "RH_fn57", "", 100, -1 },
+			{ "RH_uspm", "", 100, -1 },
+			{ "RH_Hk416c", "HK 416 Carbine CODE RED ONLY!", 100 },
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_17Rnd_9x19_g17", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 },
-			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
+			{ "RH_32Rnd_9mm_M822", "", 100, -1 },
+			{ "RH_20Rnd_57x28_FN", "", 100, -1 },
+			{ "RH_16Rnd_40cal_usp", "", 100, -1 },
+			{ "RH_30Rnd_556x45_M855A1", "", 100 }
         };
         accs[] = {
 			{ "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 } ,
+			{ "RH_t1", "", 100 },
+			{ "RH_LTdocter", "", 100 },
 			{ "RH_compm4s", "", 100, }
         };
     };
@@ -286,30 +280,24 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be an Lieutenant Rank!" };
         items[] = {
-			{ "RH_kimber_nw", "", 100, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "RH_g17", "", 100, -1 },
-			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_python", "", 100, -1 },
-			{ "hlc_smg_mp5a4", "", 100, -1 },
-			{ "RH_M4A6", "", 100, -1 },
+			{ "hlc_rifle_CQBR", "", 100 },
+			{ "RH_fnp45", "", 100 },
+			{ "RH_m1911", "", 100 },
+			{ "hlc_rifle_RU556", "AR15 CODE RED ONLY!!", 100 },
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_17Rnd_9x19_g17", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 },
+			{ "hlc_30rnd_556x45_EPR", "", 100 },
+			{ "RH_15Rnd_45cal_fnp", "", 100 },
 			{ "RH_7Rnd_45cal_m1911", "", 100 },
-			{ "RH_6Rnd_357_Mag", "", 100 },
-			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
-			{ "RH_30Rnd_68x43_FMJ", "", 100, -1 }
+			{ "hlc_30Rnd_556x45_EPR", "", 100 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 },
+			{ "RH_barska_rds", "", 100 },
+			{ "Trixie_m68cco", "", 100 },
+			{ "RH_LTdocter", "", 100 },
 			{ "RH_compm4s", "", 100, }
         };
     };
@@ -320,35 +308,23 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a Captain Rank!" };
         items[] = {
-            { "RH_kimber_nw", "", 100, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "RH_g17", "", 100, -1 },
-			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_python", "", 100, -1 },
-			{ "RH_bullb", "", 100, -1 },
-			{ "hlc_smg_mp5a4", "", 100, -1 },
-			{ "RH_M4A6", "", 100, -1 },
-			{ "RH_hb", "", 100, -1 },
+			{ "RH_M4m", "", 100 },
+			{ "RH_python", "", 100 },
+			{ "RH_M4A1_Ris", "M4A1 CODE RED ONLY!", 100 },
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_17Rnd_9x19_g17", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 },
-			{ "RH_7Rnd_45cal_m1911", "", 100 },
+			{ "RH_30Rnd_556x45_M855A1", "", 100 },
 			{ "RH_6Rnd_357_Mag", "", 100 },
-			{ "RH_6Rnd_454_Mag", "", 100 },
-			{ "hlc_30Rnd_9x19_B_MP5", "", 100, -1 },
-			{ "RH_30Rnd_68x43_FMJ", "", 100, -1 },
-			{ "RH_30Rnd_762x35_FMJ", "", 100, -1 }
+			{ "RH_30Rnd_556x45_M855A1", "", 100 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 },
-			{ "RH_compm4s", "", 100 },
+			{ "Trixie_m68cco", "", 100 },
+			{ "RH_barska_rds", "", 100 },
+			{ "RH_LTdocter", "", 100 },
+			{ "RH_compm4s", "", 100 }
         };
     };
 	
@@ -358,39 +334,20 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "You must be a Chief Rank!" };
         items[] = {
-            { "RH_kimber_nw", "", 100, -1 },
-            { "hgun_Pistol_heavy_01_F", "", 100, -1 },
-            { "RH_m9", "", 100, -1 },
-            { "RH_g17", "", 100, -1 },
-			{ "hgun_ACPC2_F", "", 100, -1 },
-			{ "RH_python", "", 100, -1 },
-			{ "RH_bullb", "", 100, -1 },
-			{ "RH_Deaglem", "", 100, -1 },
-			{ "hlc_smg_mp5a4", "", 100, -1 },
-			{ "RH_M4A6", "", 100, -1 },
-			{ "RH_hb", "", 100, -1 },
-			{ "RH_SR25EC", "", 100, -1 },
+			{ "RH_M16A6", "", 100 },
+			{ "RH_bullb", "", 100 },
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 }
         };
         mags[] = {
-            { "RH_15Rnd_9x19_M9", "", 100 },
-            { "RH_17Rnd_9x19_g17", "", 100 },
-            { "11Rnd_45ACP_Mag", "", 100 },
-			{ "9Rnd_45ACP_Mag", "", 100 },
-			{ "RH_7Rnd_45cal_m1911", "", 100 },
-			{ "RH_6Rnd_357_Mag", "", 100 },
-			{ "RH_6Rnd_454_Mag", "", 100 },
-			{ "RH_7Rnd_50_AE", "", 100 },
-			{ "hlc_30Rnd_9x19_B_MP5", "", 100 },
 			{ "RH_30Rnd_68x43_FMJ", "", 100 },
-			{ "RH_30Rnd_762x35_FMJ", "", 100 },
-			{ "RH_20Rnd_762x51_Mk319", "", 100 }
+			{ "RH_6Rnd_454_Mag", "", 100 }
         };
         accs[] = {
             { "RH_M6X", "", 100 },
 			{ "acc_flashlight_pistol", "", 100 },
-			{ "optic_MRD", "", 100 },
-			{ "optic_Yorris", "", 100 },
+			{ "RH_barska_rds", "", 100 },
+			{ "Trixie_m68cco", "", 100 },
+			{ "RH_LTdocter", "", 100 },
 			{ "RH_demz", "", 100 },
 			{ "RH_compm4s", "", 100, }
         };
