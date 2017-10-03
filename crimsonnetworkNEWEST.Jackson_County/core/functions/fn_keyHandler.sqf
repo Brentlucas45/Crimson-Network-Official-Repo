@@ -249,24 +249,6 @@ switch (_code) do {
         };
     };
 
-    case 36: {
-       _veh = vehicle player;
-           if (isNil {_veh getVariable "siren"}) then {_veh setVariable ["siren",false,true];};
-           if ((_veh getVariable "siren")) then {
-               titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-               _veh setVariable ["siren",false,true];
-           } else {
-               titleText [localize "STR_MISC_SirensON","PLAIN"];
-               _veh setVariable ["siren",true,true];
-               if (playerSide isEqualTo west) then {
-                   [_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
-               } else {
-                   [_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
-               };
-            };
-        };
-    };
-
     //O Key
     case 24: {
         if (_shift) then {
