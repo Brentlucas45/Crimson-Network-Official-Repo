@@ -312,14 +312,15 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "PRO_SOO", "Cadet", 0, { "", "", -1 } },
-			{ "PRO_SOSO", "Officer", 0, { "", "", -1 } },
+			{ "cadet_uni", "Cadet", 0, { "", "", -1 } },
+			{ "PRO_SOO", "Officer", 0, { "", "", -1 } },
+			{ "PRO_SOSO", "Senior Deputy", 0, { "", "", -1 } },
 			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
 			{ "PRO_SOSGT", "Sergeant", 0, { "", "", -1 } },
 			{ "A3L_SOLieutenant_Uniform", "Lieutenant", 0, { "", "", -1 } },
             { "A3L_SOCaptain_Uniform", "Captain", 0, { "", "", -1 } },
-            { "A3L_SOUnderSheriff_Uniform", "Under Chief", 0, { "", "", -1 } },
-			{ "A3L_SOSheriff_Uniform", "Chief", 0, { "", "", -1 } },
+            { "A3L_SOUnderSheriff_Uniform", "Undersheriff", 0, { "", "", -1 } },
+			{ "A3L_SOSheriff_Uniform", "Sheriff", 0, { "", "", -1 } },
 			{ "fto_uni", "FTO Uniform", 0, { "", "", -1 } }
         };
         headgear[] = {
@@ -338,7 +339,8 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "A3L_sheriffvest", "Sheriff Vest", 0, { "", "", -1 } },
             { "PRO_SOVEST_Command", "Command Vest", 0, { "", "", -1 } },
-            { "A3L_ftovest2", "FTO Vest", 0, { "", "", -1 } }
+            { "A3L_ftovest2", "FTO Vest", 0, { "", "", -1 } },
+			{ "TCG_troopervest1", "Trooper Vest", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },

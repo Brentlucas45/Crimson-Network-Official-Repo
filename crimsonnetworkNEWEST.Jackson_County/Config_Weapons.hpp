@@ -217,10 +217,12 @@ class WeaponShops {
         items[] = {
 			{ "RH_g17", "", 100, -1 },
             { "RH_g19", "", 100, -1 },
+			{"RH_p226", "Senior Deputy Only!", 100, -1 },
 			{ "Hlc_smg_mp5a2", "MP5 CODE RED ONLY!", 100, -1 }
         };
         mags[] = {
             { "RH_17Rnd_9x19_g17", "", 100 },
+			{ "RH_15Rnd_9x19_SIG", "", 100 },
 			{ "hlc_30Rnd_9x19_B_MP5", "", 100 }
         };
         accs[] = {
