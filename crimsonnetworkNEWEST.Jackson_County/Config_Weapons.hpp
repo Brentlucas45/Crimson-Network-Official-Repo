@@ -179,7 +179,11 @@ class WeaponShops {
             { "FirstAidKit", "", 100, 65 },
             { "NVGoggles", "", 100, 980 },
 			{ "optic_Holosight", "", 100 },
-			{ "tf_anprc152_1", "", 100 }
+			{ "tf_anprc152_1", "", 100 },
+			{ "Trixie_m68cco", "", 100 },
+			{ "RH_barska_rds", "", 100 },
+			{ "RH_LTdocter", "", 100 },
+			{ "RH_compm4s", "", 100 }
         };
         mags[] = {
             { "CSW_Taser_Probe_Mag", "", 25 },
