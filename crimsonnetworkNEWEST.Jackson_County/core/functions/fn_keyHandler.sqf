@@ -109,7 +109,7 @@ switch (_code) do {
             _handled = true;
         };
     };
-	
+
 	case 207: {
 	    if(_shift) then {
 		        switch (player getVariable["Earplugs",0]) do {
@@ -205,26 +205,26 @@ switch (_code) do {
     };
 
     //L Key?
-     case 38: //Shift-L = Gyrophare / L= Radar  
-    {  
-        _veh = vehicle player;  
-        if (_shift && !_alt && !_ctrlKey) then  
-        {  
-            if(playerSide in [west,independent] && _veh != player && ((driver _veh) == player)) then  
-            {  
-                if(!isNil {_veh getVariable "lights"}) then  
-                {  
-                    if(playerSide == west) then  
-                    {  
-                        [_veh] call life_fnc_sirenLights;  
-                    } else {  
-                        [_veh] call life_fnc_medicSirenLights;  
-                    };  
-                };  
-            };  
-            _handled = true;  
-        };  
-        if (!_alt && !_ctrlKey && playerSide == west) then    {        [] call life_fnc_radar;    };  
+     case 38: //Shift-L = Gyrophare / L= Radar
+    {
+        _veh = vehicle player;
+        if (_shift && !_alt && !_ctrlKey) then
+        {
+            if(playerSide in [west,independent] && _veh != player && ((driver _veh) == player)) then
+            {
+                if(!isNil {_veh getVariable "lights"}) then
+                {
+                    if(playerSide == west) then
+                    {
+                        [_veh] call life_fnc_sirenLights;
+                    } else {
+                        [_veh] call life_fnc_medicSirenLights;
+                    };
+                };
+            };
+            _handled = true;
+        };
+        if (!_alt && !_ctrlKey && playerSide == west) then    {        [] call life_fnc_radar;    };
     };
 
     //Y Player Menu
@@ -246,20 +246,23 @@ switch (_code) do {
                 sleep 4.7;
                 life_siren_active = false;
             };
+        };
+    };
 
-            _veh = vehicle player;
-            if (isNil {_veh getVariable "siren"}) then {_veh setVariable ["siren",false,true];};
-            if ((_veh getVariable "siren")) then {
-                titleText [localize "STR_MISC_SirensOFF","PLAIN"];
-                _veh setVariable ["siren",false,true];
-            } else {
-                titleText [localize "STR_MISC_SirensON","PLAIN"];
-                _veh setVariable ["siren",true,true];
-                if (playerSide isEqualTo west) then {
-                    [_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
-                } else {
-                    [_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
-                };
+    case 36: {
+       _veh = vehicle player;
+           if (isNil {_veh getVariable "siren"}) then {_veh setVariable ["siren",false,true];};
+           if ((_veh getVariable "siren")) then {
+               titleText [localize "STR_MISC_SirensOFF","PLAIN"];
+               _veh setVariable ["siren",false,true];
+           } else {
+               titleText [localize "STR_MISC_SirensON","PLAIN"];
+               _veh setVariable ["siren",true,true];
+               if (playerSide isEqualTo west) then {
+                   [_veh] remoteExec ["life_fnc_copSiren",RCLIENT];
+               } else {
+                   [_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
+               };
             };
         };
     };
@@ -276,25 +279,25 @@ switch (_code) do {
             };
         };
     };
-	
-	case 46:  
-    {      
-        if(_shift && (!life_action_inUse) && (vehicle player == player) ) then  
-        {  
-			_item = "";  
-            {  
-                if(typeName _x == typeName "") then {_item = _x;} else {_item = configName _x};  
-				_val = ITEM_VALUE(_item);  
-                if(_val > 0 ) then  
-                {  
-                    if( _item == "pickaxe" ) then  
-                    {  
-                        [] spawn life_fnc_pickAxeUse;  
-                    };  
-                };  
-            } foreach ("true" configClasses (missionConfigFile >> "VirtualItems"));  
-        }  
-    };  
+
+	case 46:
+    {
+        if(_shift && (!life_action_inUse) && (vehicle player == player) ) then
+        {
+			_item = "";
+            {
+                if(typeName _x == typeName "") then {_item = _x;} else {_item = configName _x};
+				_val = ITEM_VALUE(_item);
+                if(_val > 0 ) then
+                {
+                    if( _item == "pickaxe" ) then
+                    {
+                        [] spawn life_fnc_pickAxeUse;
+                    };
+                };
+            } foreach ("true" configClasses (missionConfigFile >> "VirtualItems"));
+        }
+    };
 
     //U Key
     case 22: {
