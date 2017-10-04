@@ -3419,6 +3419,9 @@
 		<Key ID="STR_Item_ZipTies">
 			<Original>ZipTies</Original>
 		</Key>
+		<Key ID="STR_Item_PanicButton">
+			<Original>Panic Button</Original>
+		</Key>
 		<Key ID="STR_Item_Blindfold">
 			<Original>Blindfold</Original>
 		</Key>

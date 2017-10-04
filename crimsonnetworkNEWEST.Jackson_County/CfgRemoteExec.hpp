@@ -73,6 +73,7 @@ class CfgRemoteExec {
 		F(life_fnc_gagged,CLIENT)
 		F(life_fnc_seizeObjects,CLIENT)
 		F(life_fnc_passeportCiv,CLIENT)
+		F(life_fnc_backup,CLIENT)
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
