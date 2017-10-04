@@ -1,7 +1,3 @@
-/*
-	File: fn_backup.sqf
-*/
-
 params [
 	["_player", objnull, [objnull]],
 	["_deleteTime", 60, [0]]
