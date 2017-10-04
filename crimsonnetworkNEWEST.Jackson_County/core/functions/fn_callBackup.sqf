@@ -1,9 +1,3 @@
-/*  
-    Script file made by: Maximum  
-    Idea based off: Liemans script - did way to much to achieve the same thing.  
-    Description: Lets a officer request backup VIA scroll menu, made for ***AltisLifeRPG.com***  
-*/
-
 if (!life_callBackup) exitWith {hint "You can not do that now!"};
  
 _backupTime = 60; 
