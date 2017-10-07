@@ -436,6 +436,7 @@ class CarShops {
 			{ "cg_evoblack", { "", "", -1 } },
 			{ "A3L_ChargerUC_Blue_New", { "", "", -1 } },
 			{ "A3L_ChargerUC_White_New", { "", "", -1 } },
+			{ "a3l_subaru_police", { "", "", -1 } },
 			{ "A3L_jailbus", { "", "", -1 } },
 			{ "cg_h2_sert", { "", "", -1 } },
 			{ "A3L_ChargerSERTLB", { "", "", -1 } },
@@ -639,6 +640,13 @@ class LifeCfgVehicles {
     };
 	
 	class A3L_CVPIFPBLBCSO {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = { };
+    };
+	
+	class a3l_subaru_police {
         vItemSpace = 65;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 12500;

@@ -46,7 +46,7 @@ if (isNil {
 else {
     _info = _info + format["<br/><t color='#5A80EB'><t size='1.5'><t align='center'>Owner(s):<br/><t color='#33CC33'><t align='center'><t size='1'> %1", _owner];
 };
-_info = _info + format["<br/><t color='#5A80EB'><t size='1.5'><t align='center'>Véhicule:<br/><t color='#33CC33'><t align='center'><t size='1'> %1", _type];
+_info = _info + format["<br/><t color='#5A80EB'><t size='1.5'><t align='center'>Vehicle:<br/><t color='#33CC33'><t align='center'><t size='1'> %1", _type];
 if ((_driver getVariable "isWanted")) then {
     _info = _info + format["<br/><t color='#F00'><t size='1.5'><t align='center'>The driver is wanted"];
 }
