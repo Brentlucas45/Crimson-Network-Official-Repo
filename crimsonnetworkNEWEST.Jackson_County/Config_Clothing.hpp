@@ -321,7 +321,19 @@ class Clothing {
             { "A3L_SOCaptain_Uniform", "Captain", 0, { "", "", -1 } },
             { "A3L_SOUnderSheriff_Uniform", "Undersheriff", 0, { "", "", -1 } },
 			{ "A3L_SOSheriff_Uniform", "Sheriff", 0, { "", "", -1 } },
-			{ "fto_uni", "FTO Uniform", 0, { "", "", -1 } }
+			{ "officerHWP", "HWP Officer", 0, { "", "", -1 } },
+			{ "snrofficerHWP", "HWP Snr. Officer", 0, { "", "", -1 } },
+			{ "corporalHWP", "HWP Corporal", 0, { "", "", -1 } },
+			{ "sergeantHWP", "HWP Sergeant", 0, { "", "", -1 } },
+			{ "lieutenantHWP", "HWP Lieutenant", 0, { "", "", -1 } },
+			{ "captainHWP", "HWP Captain", 0, { "", "", -1 } },
+			{ "FTOuniform", "FTO Officer", 0, { "", "", -1 } },
+			{ "FTO_1", "FTO Snr. Officer", 0, { "", "", -1 } },
+			{ "FTO_5", "FTO Corporal", 0, { "", "", -1 } },
+			{ "FTO_3", "FTO Sergeant", 0, { "", "", -1 } },
+			{ "FTO_4", "FTO Lieutenant", 0, { "", "", -1 } },
+			{ "FTO_6", "FTO Captain", 0, { "", "", -1 } }
+			
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -333,14 +345,15 @@ class Clothing {
             { "G_Shades_Black", "", 25, { "", "", -1 } },
             { "G_Lowprofile", "", 30, { "", "", -1 } },
             { "G_Combat", "", 55, { "", "", -1 } },
-            { "G_Aviator", "", 100, { "", "", -1 } }
+            { "G_Aviator", "", 100, { "", "", -1 } },
+			{ "pmc_earpiece", "Radio Earpiece", 0, { "", "", -1 } },
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
-            { "A3L_sheriffvest", "Sheriff Vest", 0, { "", "", -1 } },
+            { "Sheriff_vest_ylw", "Sheriff Vest", 0, { "", "", -1 } },
             { "PRO_SOVEST_Command", "Command Vest", 0, { "", "", -1 } },
-            { "A3L_ftovest2", "FTO Vest", 0, { "", "", -1 } },
-			{ "TCG_troopervest1", "Trooper Vest", 0, { "", "", -1 } }
+            { "FTO_vest", "FTO Vest", 0, { "", "", -1 } },
+			{ "Police_Patrol_Division", "HWP Vest", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
