@@ -312,7 +312,7 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "cadet_uni", "Cadet", 0, { "", "", -1 } },
+			{ "cadetDOC", "Cadet", 0, { "", "", -1 } },
 			{ "PRO_SOO", "Officer", 0, { "", "", -1 } },
 			{ "PRO_SOSO", "Senior Deputy", 0, { "", "", -1 } },
 			{ "PRO_SOCPL", "Corporal", 0, { "", "", -1 } },
@@ -338,7 +338,8 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "Campaign_Hat_Light", "Sheriffs Hat", 0, { "", "", -1 } },
-            { "jamie_pcapblack", "FTO Hat", 0, { "", "", -1 } }
+            { "TRYK_UA_CAP", "Cadet Hat", 0, { "", "", -1 } },
+			{ "jamie_pcapblack", "FTO Hat", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
