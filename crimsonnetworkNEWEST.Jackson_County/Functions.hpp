@@ -246,8 +246,6 @@ class Life_Client_Core {
 		class A3L_PlantCharge {};
 		class seatbelt {};
 		class backup {};
-		class callBackup {};
-
     };
 	
 	class CivTieing {
@@ -312,6 +310,7 @@ class Life_Client_Core {
         class spikeStrip {};
         class storageBox {};
 		class speedBomb {};
+		class panicbutton {};
     };
 
     class Medical_System {

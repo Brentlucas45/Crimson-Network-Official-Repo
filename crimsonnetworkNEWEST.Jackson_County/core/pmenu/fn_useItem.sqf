@@ -48,6 +48,10 @@ switch (true) do {
     case (_item isEqualTo "storagesmall"): {
         [false] call life_fnc_storageBox;
     };
+	
+	case (_item isEqualTo "panicbutton"): {
+			[] spawn life_fnc_panicbutton;
+    };
 
     case (_item isEqualTo "storagebig"): {
         [true] call life_fnc_storageBox;
