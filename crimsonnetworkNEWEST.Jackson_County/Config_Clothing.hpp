@@ -469,12 +469,14 @@ class Clothing {
             { "H_Cap_blu", "", 10, { "", "", -1 } },
 			{ "H_Cap_grn", "", 10, { "", "", -1 } },
 			{ "H_PilotHelmetHeli_B", "", 10, { "", "", -1 } },
-			{ "TRYK_R_CAP_BLK", "", 10, { "", "", -1 } }
+			{ "TRYK_R_CAP_BLK", "", 10, { "", "", -1 } },
+			{ "TRYK_UA_CAP", "Cadet Hat", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
             { "G_Shades_Blue", "", 10, { "", "", -1 } },
-			{ "G_Diving", "", 10, { "", "", -1 } }
+			{ "G_Diving", "", 10, { "", "", -1 } },
+			{ "G_Aviator", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },

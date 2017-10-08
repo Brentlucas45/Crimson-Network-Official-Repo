@@ -393,24 +393,20 @@ class CarShops {
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", { "", "", -1 } },
-            { "I_Truck_02_medical_F", { "", "", -1 } },
-            { "O_Truck_03_medical_F", { "", "", -1 } },
-            { "B_Truck_01_medical_F", { "", "", -1 } },
 			{ "A3L_Charger_EMS_Fast", { "", "", -1 } },
 			{ "ivory_suburban_ems", { "", "", -1 } }, 	
-			{ "EvoXEMS", { "", "", -1 } },	
-			{ "ivory_b206_rescue", { "", "", -1 } }
+			{ "EvoXEMS", { "", "", -1 } },
+			{ "A3L_CVPILBFD", { "", "", -1 } },
+			{ "AM_Escalade_ribems", { "", "", -1 } }
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
 			{ "EMS_Chopper", { "", "", -1 } },
 			{ "EMS_Orca" , { "", "", -1 } },
+			{ "ivory_b206_rescue", { "", "", -1 } }
 		
 			
         };
@@ -1362,6 +1358,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = { };
     };
 	
+	class AM_Escalade_ribems{
+        vItemSpace = 25;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 10000;
+        textures[] = { };
+    };
+	
 	class shounka_clk_violet {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -1471,6 +1474,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 100000;
+        textures[] = { };
+    };
+	
+	class A3L_CVPILBFD {
+        vItemSpace = 25;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 10000;
         textures[] = { };
     };
 	
