@@ -28,6 +28,18 @@ if (!isNull _source) then {
                     };
                 };
             };
+			
+			//ANTI VDM
+			if (((vehicle _source isKindOf "Ship") OR ( vehicle _source isKindOf "Air") OR (vehicle _source isKindOf "LandVehicle")) AND (_projectile == "")) then
+			{
+				_unit allowDamage false;
+				_unit setVariable ["life_fnc_allowDamage", False];
+				_unit spawn {
+					sleep 2;
+					_this setVariable ["life_fnc_allowDamage", True];
+					_this allowDamage true;
+				};
+			};
 
             //Temp fix for super tasers on cops.
             if (side _source isEqualTo west || (side _source isEqualTo civilian) && (playerSide isEqualTo independent)) then {
