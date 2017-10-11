@@ -31,6 +31,6 @@
 #include "jail_time.hpp"
 #include "smartphone.hpp"
 #include "statusBar.hpp"
-#include "dynmarket_changeprice.hpp"
-#include "dynmarket_prices.hpp"
 #include "hitmarker.hpp"
+#include "common_EditorWrapper.hpp"
+#include "market.hpp"

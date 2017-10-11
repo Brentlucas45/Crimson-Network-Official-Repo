@@ -27,6 +27,23 @@ class Life_Client_Core {
 		
     };
 	
+	class Market {
+		file = "core\market";
+		class openMarketView {};
+		class refreshMarketView {};
+		class marketShortView {};
+		class marketBuy {};
+		class marketSell {};
+		class marketGetBuyPrice {};
+		class marketGetSellPrice {};
+		class marketconfiguration {};
+		class marketReset {};
+		class marketChange {};
+		class marketGetRow {};
+		class marketGetPriceRow {};
+		class marketSetPriceRow {};
+	};
+	
 	class Debit {
 		file = "core\debit";
 		class buyClothesDebit {};
@@ -77,17 +94,6 @@ class Life_Client_Core {
 		class openvault {};
 		class closevault {};
 		class hackvault {};
-    };
-	
-	class DynMarket
-    {
-        file = "core\DynMarket";
-        class bought {};
-        class update {};
-        class DisplayPrices {};
-        class LoadIntoListbox {};
-        class ForcePrice {};
-        class DYNMARKET_getPrice {};
     };
 
     class Admin {
@@ -246,6 +252,7 @@ class Life_Client_Core {
 		class A3L_PlantCharge {};
 		class seatbelt {};
 		class hitMarker {};
+		class randomRound {};
     };
 	
 	class CivTieing {
