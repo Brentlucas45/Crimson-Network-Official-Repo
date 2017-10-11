@@ -33,3 +33,4 @@
 #include "statusBar.hpp"
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
+#include "hitmarker.hpp"

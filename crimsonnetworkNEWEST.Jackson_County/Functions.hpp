@@ -245,6 +245,7 @@ class Life_Client_Core {
 		class A3L_bankrobbery {};
 		class A3L_PlantCharge {};
 		class seatbelt {};
+		class hitMarker {};
     };
 	
 	class CivTieing {
