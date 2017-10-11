@@ -1,3 +1,6 @@
+/*
+	Kill african'ts
+*/
 
 private["_hgItems","_holder","_items","_pwItems","_safeItems","_swItems","_weps","_unit"];
 
